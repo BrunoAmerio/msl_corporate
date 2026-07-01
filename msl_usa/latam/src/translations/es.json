@@ -1,0 +1,341 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "about": "Nosotros",
+    "services": "Servicios",
+    "offices": "Oficinas",
+    "contact": "Contacto",
+    "login": "Login",
+    "clients": "Clientes",
+    "agents": "Agentes",
+    "region": "Region",
+    "language": "Idioma",
+    "social_media": "Redes sociales",
+    "solutions": "Servicios"
+  },
+  "home": {
+    "hero": {
+      "subtitle": "Neutral Logistics Operator",
+      "title": "Connecting the world",
+      "description": "Transformamos la logística en soluciones integrales"
+    },
+    "we_are": {
+      "title": "Nosotros",
+      "description": "Somos un Operador Logístico Neutral (NLO) con más de 30 años de experiencia en el mercado.",
+      "description_full": "Ofrecemos soluciones logísticas integrales a través de servicios marítimos, aéreos y terrestres, así como almacenaje, e-logistics y seguros de mercancías. Nos adaptamos a las necesidades de cada cliente para brindar un servicio personalizado.",
+      "button": "Ver más"
+    },
+    "services": {
+      "title_prefix": "Nuestros",
+      "title": "Servicios",
+      "subtitle": "Somos el primer NLO",
+      "subtitle_full": "Neutral Logistics Operator",
+      "button": "Ver todos",
+      "ocean": "Maritimo",
+      "air": "Aereo",
+      "truck": "Terrestre",
+      "warehousing": "Warehousing",
+      "elogistics": "E-Logistics",
+      "insurance": "Seguro de mercaderias",
+      "button_more": "Ver más"
+    },
+    "offices": {
+      "title_prefix": "Nuestras",
+      "title": "Oficinas",
+      "description_title": "Presencia en toda Sudamérica",
+      "description": "Oficinas en cada país, equipos locales y una misma visión: conectar mercados y oportunidades en toda la región.",
+      "button_more": "Ver más"
+    },
+    "msl_group": {
+      "title": "Sobre MSL Group",
+      "description": "Formamos parte de MSL Group, un grupo empresarial de alcance global con marcas presentes en América, Caribe, Europa y África.",
+      "offices": "Oficinas",
+      "countries": "Países",
+      "staff": "Personal"
+    },
+    "cta": {
+      "title": "¡Te ayudamos a mover tu carga por el mundo!",
+      "button": "Contáctanos"
+    },
+    "common": {
+      "view_more": "Ver más",
+      "copyright": "©2025, MSL LATAM. Todos los derechos reservados."
+    }
+  },
+  "about": {
+    "header": {
+      "title": "Nosotros",
+      "subtitle": "We are MSL"
+    },
+    "who_we_are": {
+      "chip": "Quienes somos",
+      "description": "En MSL somos un Operador Logístico Neutral (NLO) con más de 30 años de experiencia en el mercado. Brindamos soluciones logísticas integrales que abarcan transporte marítimo, aéreo y terrestre, así como servicio de almacenaje (Warehousing) y seguro de mercaderías"
+    },
+    "our_history": {
+      "chip": "Nuestra historia",
+      "title": "Comenzamos operaciones en 1995 en Argentina, como consolidador marítimo neutral. Desde entonces, hemos recorrido un camino de crecimiento sostenido, siempre atentos a las oportunidades del mercado y al contexto de cada país.",
+      "description": "Con el tiempo, expandimos nuestra presencia en Sudamérica, diversificamos servicios e incorporamos nuevas modalidades de transporte para responder a las demandas de un sector en constante transformación.",
+      "description_continued": "A lo largo de estos años, nuestro crecimiento ha estado guiado por un principio inquebrantable: la neutralidad, valor que define nuestra identidad y nos acompaña en cada paso de nuestra evolución."
+    },
+    "regional_reach": {
+      "chip": "Alcance regional",
+      "title": "Nuestros números",
+      "description": "Somos un operador logístico neutral con fuerte presencia en toda la región de Sudamérica",
+      "offices": "Oficinas",
+      "countries": "Países",
+      "staff": "Colaboradores"
+    },
+    "common": {
+      "copyright": "©2025, MSL LATAM. Todos los derechos reservados."
+    }
+  },
+  "contact_page": {
+    "header": {
+      "title": "Contacto",
+      "description": "Haz tu consulta y te responderemos a la brevedad."
+    },
+    "social_media": {
+      "title": "Redes sociales",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn",
+      "facebook": "Facebook",
+      "youtube": "YouTube",
+      "link": "Enlace"
+    },
+    "form": {
+      "name": "Nombre y Apellido *",
+      "company": "Empresa *",
+      "email": "Email *",
+      "telephone": "Teléfono *",
+      "country": "¿De qué país eres? *",
+      "message": "Mensaje *",
+      "submit": "Envíar",
+      "copyright": "©2025, MSL LATAM. Todos los Derechos Reservados."
+    },
+    "work_with_us": {
+      "title": "Trabaja con nosotros",
+      "subtitle": "Envíanos tu CV para formar parte del equipo de MSL.",
+      "description": "Creemos en el talento, la innovación y el compromiso como motores de crecimiento. Si compartes nuestra visión, postúlate para conocerte.",
+      "form": {
+        "fullname": "Nombre y Apellido *",
+        "attach_cv": "Adjuntar CV",
+        "message": "Déjanos tu mensaje *",
+        "terms": "Acepto los términos y condiciones del sitio web.",
+        "submit": "Enviar"
+      }
+    }
+  },
+  "offices_page": {
+    "header": {
+      "title_prefix": "Nuestras",
+      "title": "Oficinas",
+      "copyright": "©2025, MSL LATAM. Todos los Derechos Reservados."
+    },
+    "services_label": "Servicios",
+    "countries": {
+      "ar": {
+        "name": "Argentina",
+        "description": "Inició operaciones en 1995.",
+        "last_description": "Argentina es un mercado clave en la costa este de Sudamérica.",
+        "offices_description": "Su oficina principal se encuentra en Buenos Aires, junto con tres sedes en el interior del país: Mendoza, Rosario y Córdoba.",
+        "services": {
+          "ocean_lcl": "Marítimo LCL",
+          "ocean_fcl": "Marítimo FCL",
+          "air": "Aéreo"
+        }
+      },
+      "ec": {
+        "name": "Ecuador",
+        "description": "Inició sus operaciones en 2005.",
+        "last_description": "Ecuador es estratégico para nuestras operaciones en el Pacífico.",
+        "offices_description": "Su oficina principal se encuentra en Guayaquil, junto con dos sedes: una en el aeropuerto de Guayaquil y otra en Quito.",
+        "services": {
+          "ocean_lcl": "Marítimo LCL",
+          "ocean_fcl": "Marítimo FCL",
+          "air": "Aéreo",
+          "elogistics": "E-Logistics",
+          "insurance": "Seguro"
+        }
+      },
+      "ve": {
+        "name": "Venezuela",
+        "description": "Inició operaciones en el 2011.",
+        "last_description": "Venezuela es importante para nuestras operaciones en el norte de Sudamérica.",
+        "offices_description": "Su oficina principal se encuentra en Caracas, y cuenta con presencia en los principales puertos del país: Puerto Cabello y La Guaira.",
+        "services": {
+          "ocean_fcl": "Marítimo FCL",
+          "ocean_lcl": "Marítimo LCL",
+          "air": "Aéreo",
+          "insurance": "Seguro"
+        }
+      },
+      "cl": {
+        "name": "Chile",
+        "description": "Inició sus operaciones en 2004.",
+        "last_description": "Chile es un mercado estratégico para nuestras operaciones en el Pacífico Sur.",
+        "offices_description": "Oficinas: Santiago de Chile, Aeropuerto de Santiago, Valparaíso, San Antonio, Arica e Iquique.",
+        "services": {
+          "ocean_lcl": "Marítimo LCL",
+          "ocean_fcl": "Marítimo FCL",
+          "air": "Aéreo",
+          "inland": "Terrestre",
+          "insurance": "Seguro",
+          "courier": "Courier"
+        }
+      },
+      "py": {
+        "name": "Paraguay",
+        "description": "Paraguay inició sus operaciones en 2003.",
+        "last_description": "Por su ubicación geográfica, Paraguay es un mercado clave para la implementación de servicios multimodales.",
+        "offices_description": "Su oficina principal se encuentra en Asunción.",
+        "services": {
+          "ocean_lcl": "Marítimo LCL",
+          "ocean_fcl": "Marítimo FCL",
+          "air": "Aéreo",
+          "inland": "Terrestre",
+          "insurance": "Seguro"
+        }
+      },
+      "pe": {
+        "name": "Perú",
+        "description": "Perú inició sus operaciones en 2005.",
+        "last_description": "Perú es un mercado clave en la costa del Pacífico.",
+        "offices_description": "Su oficina principal se encuentra en Lima, donde operan todas las unidades de negocio, a excepción del producto Aéreo, ubicado en el Centro Lima Cargo – Callao. Además, cuenta con sedes en Paita y Mollendo.",
+        "services": {
+          "ocean_lcl": "Marítimo LCL",
+          "ocean_fcl": "Marítimo FCL",
+          "air": "Aéreo",
+          "insurance": "Seguro"
+        }
+      },
+      "bo": {
+        "name": "Bolivia",
+        "description": "Bolivia inició sus operaciones en 2008 con servicios terrestres de importación desde Argentina hacia La Paz.",
+        "last_description": "Bolivia es un mercado en crecimiento para nuestras operaciones logísticas.",
+        "offices_description": "Su oficina principal: Santa Cruz de la Sierra, y una oficina adicional en La Paz.",
+        "services": {
+          "ocean_lcl": "Marítimo LCL",
+          "ocean_fcl": "Marítimo FCL",
+          "air": "Aéreo",
+          "inland_ltl_ftl": "Terrestre LTL/FTL",
+          "insurance": "Seguro"
+        }
+      },
+      "co": {
+        "name": "Colombia",
+        "description": "Colombia inició sus operaciones en 2006.",
+        "last_description": "Su salida a los océanos Pacífico y Atlántico refuerza la posición de Colombia como un punto clave para el comercio marítimo internacional.",
+        "offices_description": "Su oficina principal se encuentra en Bogotá, y cuenta con presencia en Cartagena, Medellín, Buenaventura y en el Aeropuerto de Bogotá.",
+        "services": {
+          "ocean_fcl": "Marítimo FCL",
+          "ocean_lcl": "Marítimo LCL",
+          "inland_ltl_ftl": "Terrestre LTL/FTL",
+          "air": "Aéreo"
+        }
+      },
+      "br": {
+        "name": "Brasil",
+        "description": "Brasil inició sus operaciones en 1994.",
+        "last_description": "Su oficina principal se encuentra en São Paulo, junto con cinco sedes en el país: Santos, Campinas, Rio de Janeiro, Itajaí y Porto Alegre.",
+        "offices_description": "Su oficina principal se encuentra en São Paulo, junto con cinco sedes en el país: Santos, Campinas, Rio de Janeiro, Itajaí y Porto Alegre.",
+        "services": {
+          "ocean_lcl": "Marítimo LCL",
+          "ocean_fcl": "Marítimo FCL",
+          "air": "Aéreo",
+          "insurance": "Seguro"
+        }
+      },
+      "uy": {
+        "name": "Uruguay",
+        "description": "La oficina de Uruguay inició sus operaciones en 2001.",
+        "last_description": "Con nuestra oficina en Montevideo, atendemos las necesidades logísticas del país.",
+        "offices_description": "Con nuestra oficina en Montevideo, atendemos las necesidades logísticas del país.",
+        "services": {
+          "ocean_lcl": "Marítimo LCL",
+          "ocean_fcl": "Marítimo FCL",
+          "air": "Aéreo",
+          "inland": "Terrestre",
+          "elogistics": "E-Logistics"
+        }
+      }
+    },
+    "tarifario": {
+      "download_tarifario_label": "Descargar tarifario"
+    },
+    "location_labels": {
+      "address": "DIRECCIÓN",
+      "warehouse": "WAREHOUSE",
+      "phone": "PHONE",
+      "mail": "MAIL"
+    }
+  },
+  "services_page": {
+    "header": {
+      "title": "Servicios",
+      "description": "Nuestra red de oficinas, alianzas estratégicas y agentes en todo el mundo nos permite brindar cobertura global con una gestión eficiente de principio a fin."
+    },
+    "slider": {
+      "text": "Expertos • Excelencia operativa • Neutralidad garantizada • Atención personalizada • Alcance global"
+    },
+    "info": {
+      "title": "En MSL ofrecemos soluciones logísticas integrales que se adaptan a las necesidades de cada cliente y a las exigencias de toda la cadena de suministro.",
+      "nlo_description": "Como parte de MSL Group, trabajamos bajo el concepto de NLO (Neutral Logistics Operator), garantizando neutralidad en cada operación y un servicio confiable, profesional y cercano."
+    },
+    "ocean": {
+      "title": "Marítimo",
+      "description": "Con más de 30 años de experiencia, el transporte marítimo es nuestro eje principal. Ofrecemos servicios de importación y exportación, con conexiones a través de hubs estratégicos en Latinoamérica y el mundo.",
+      "lcl": "LCL (Less than Container Load): opción flexible para cargas consolidadas, optimizando tiempos y costos.",
+      "fcl": "FCL (Full Container Load): solución eficiente para cargas completas, con seguimiento personalizado y un equipo especializado en su gestión."
+    },
+    "air": {
+      "title": "Aéreo",
+      "description": "Cuando el tiempo es determinante, nuestras soluciones aéreas garantizan rapidez y seguridad.",
+      "full_description": "Gracias a nuestra red global y la solidez de MSL Group, gestionamos envíos aéreos en los principales mercados, con cobertura integral desde la recogida hasta la entrega final. Nuestra experiencia asegura opciones confiables, flexibles y ajustadas a cada necesidad.",
+      "button": "Consultar",
+      "consolidated": "Consolidados",
+      "back_to_back": "Back to back",
+      "charters": "Charters",
+      "multimodal": "Multimodal"
+    },
+    "truck": {
+      "title": "Terrestre",
+      "description": "El transporte terrestre complementa nuestra propuesta multimodal.",
+      "full_description": "Ofrecemos servicios FTL (Full Truckload) y LTL (Less than Truckload), además de entregas urgentes, recogidas en aeropuertos y manejo de cargas especiales o peligrosas (ADR).",
+      "button": "Consultar"
+    },
+    "warehousing": {
+      "title": "Warehousing",
+      "description": "Ponemos a disposición almacenes propios y aliados en puntos estratégicos, lo que nos permite ofrecer servicios de grupaje LCL y FCL, adaptándonos a los requerimientos de cada operación.",
+      "full_description": "Contamos con certificaciones y permisos aduaneros que garantizan eficiencia, seguridad y cumplimiento normativo en cada movimiento.",
+      "button": "Consultar"
+    },
+    "elogistics": {
+      "title": "E-Logistics",
+      "description": "Nuestra unidad de E-Logistics ofrece soluciones diseñadas para optimizar las operaciones de comercio electrónico, integrando tecnología, procesos logísticos y canales de distribución digital.",
+      "full_description": "A través de un enfoque integral, conectamos cada etapa de la cadena —desde el almacenamiento hasta la entrega final— garantizando eficiencia, trazabilidad y una experiencia fluida tanto para las empresas como para sus clientes finales.",
+      "button": "Consultar",
+      "po_box": "PO BOX",
+      "fulfillment": "Fulfillment",
+      "air_sea_freight": "Air & Sea Freight",
+      "software": "Software",
+      "b2c_solutions": "B2C Solutions"
+    },
+    "insurance": {
+      "title": "Seguro de Mercaderías",
+      "description": "Acompañamos a nuestros clientes en todo el proceso de transporte con coberturas que protegen la carga ante cualquier eventualidad.",
+      "full_description": "Nuestro equipo especializado gestiona la documentación y ofrece asesoría en el manejo de mercancías, incluyendo las de carácter especial o peligroso.",
+      "button": "Consultar"
+    }
+  },
+  "footer": {
+    "sections": "Secciones",
+    "region": "Region",
+    "nlo_description": "NLO <br/> Neutral Logistics Operator",
+    "icargo_description": "Somos parte de la alizanda ICargo",
+    "contacts": "CONTACTS",
+    "social_media": "Redes sociales",
+    "terms_and_conditions": "Terminos y Condiciones",
+    "made_by": "Made by",
+    "copyright": "©2025, LATAM. Todos los derechos reservados"
+  }
+}

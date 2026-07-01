@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "nosotros": "Om oss",
+    "historia": "Historia",
+    "msl_group": "MSL Group"
+  },
+  "header": {
+    "title": "Neutral Logistics<br>Operator",
+    "welcome": "Välkommen till MSL Corporate.",
+    "description": "Härifrån kan du gå vidare till de regionala sidorna och<br>läsa mer om våra tjänster och vårt globala nätverk.",
+    "region_label": "Region",
+    "go_to_website": "Gå till webbplatsen"
+  },
+  "about": {
+    "title": "Connecting The World",
+    "scroll": "Scroll",
+    "description": "We operate and explore our services worldwide.",
+    "eyebrow": "Vilka vi är",
+    "heading": "Om oss",
+    "subheading": "Lär känna oss",
+    "copy1": "Som neutral logistik operatör (NLO) erbjuder vi integrerade lösningar inom sjö-, flyg- och landtransport, tillsammans med lagringstjänster (warehousing) och varuförsäkring. Vi har egna kontor i Sydamerika, de nordiska länderna (Norge och Sverige) och USA. Vi ingår i MSL Group, en logistikkoncern med verksamhet i Amerika, Karibien och delar av Europa och Afrika.",
+    "copy2": "",
+    "button": "Se presentation."
+  },
+  "network": {
+    "heading": "Vårt internationella nätverk",
+    "subheading": "Amerika och Nordeuropa.",
+    "description": "Verksamhet i hela Sydamerika, USA och de nordiska länderna, som driver tillväxt och kopplingar mellan marknader.",
+    "eyebrow": "Region",
+    "countries_label": "Länder",
+    "cities_label": "Städer",
+    "latam": {
+      "eyebrow": "Region",
+      "title": "LATAM",
+      "countries": ["Argentina", "Bolivia", "Brasilien", "Chile", "Colombia", "Ecuador", "Paraguay", "Peru", "Uruguay", "Venezuela"],
+      "headquarters": "Buenos Aires, Argentina",
+      "services": "Operaciones multimodales, despacho aduanero, distribución regional.",
+      "cta": "Gå till webbplatsen"
+    },
+    "usa": {
+      "eyebrow": "Region",
+      "title": "USA",
+      "countries": ["Chicago", "Los Angeles", "New York", "Miami"],
+      "headquarters": "Miami, Florida, USA",
+      "services": "Freight forwarding, fulfillment e-commerce, cadena de frío.",
+      "cta": "Gå till webbplatsen"
+    },
+    "europa": {
+      "eyebrow": "Region",
+      "title": "Norden",
+      "countries": ["Norge", "Sverige"],
+      "headquarters": "Rotterdam, Países Bajos",
+      "services": "Transporte intermodal, gestión de inventario, soluciones 3PL.",
+      "cta": "Gå till webbplatsen"
+    }
+  },
+  "journey": {
+    "heading": "En resa genom vår historia",
+    "latam": {
+      "label": "Latam",
+      "meta_text": "MSL grundades i Argentina",
+      "details": "Vi startade vår verksamhet som neutral samlastare och utökade sedan vårt utbud av tjänster tills vi blev en NLO."
+    },
+    "usa": {
+      "label": "USA",
+      "meta_text": "Första kontoret i USA: Miami",
+      "details": "Det uppstod ur ett samarbete mellan MSL och IFS (spanskt varumärke) och markerade början på vår expansion på den amerikanska marknaden, där vi idag har närvaro i Los Angeles, Chicago och New York."
+    },
+    "nordic": {
+      "label": "Nordic",
+      "meta_text": "Expansion till norra Europa.",
+      "details": "LT Group grundades 2008 och etablerade sig som ett ledande företag inom sjöfarts- och logistiktjänster i norra Europa. År 2025 förvärvades det av MSL Group, vilket ledde till bildandet av MSL Nordic: Den första NLO:n i Skandinavien, som kombinerar regional erfarenhet med koncernens globala nätverk."
+    }
+  },
+  "msl_group": {
+    "cta": "Gå till webbplatsen"
+  },
+  "footer": {
+    "copyright": "MSL®<br/>Alla rättigheter förbehållna<br/>2025",
+    "tagline": "Neutral Logistics Operator",
+    "sections_title": "Avsnitt",
+    "contact_mails_title": "Mails de contacto",
+    "social_media_title": "Sociala medier",
+    "nlo_text": "Neutral<br/>Logistics Operator",
+    "icargo_text": "Vi är en del av iCargo-alliansen.",
+    "policy": "Política y Permisos",
+    "made_by": "Made by Rango Studio™"
+  }
+}
+

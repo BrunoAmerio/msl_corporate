@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.188" height="32.34" viewBox="0 0 29.188 32.34">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_793" data-name="Rectángulo 793" width="29.188" height="32.34" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Grupo_1468" data-name="Grupo 1468" transform="translate(0 0)">
+    <rect id="Rectángulo_789" data-name="Rectángulo 789" width="19.343" height="1.619" transform="translate(4.969 25.907)" fill="#12284c"/>
+    <g id="Grupo_1457" data-name="Grupo 1457" transform="translate(0 0)">
+      <g id="Grupo_1456" data-name="Grupo 1456" clip-path="url(#clip-path)">
+        <path id="Trazado_8297" data-name="Trazado 8297" d="M28.377,32.34H.809A.809.809,0,0,1,0,31.531V3.775a.809.809,0,0,1,.723-.8L28.291,0a.8.8,0,0,1,.627.2.811.811,0,0,1,.269.6V31.531a.809.809,0,0,1-.81.809M1.619,30.721H27.569V1.711L1.619,4.5Z" transform="translate(0 -0.001)" fill="#12284c"/>
+        <rect id="Rectángulo_790" data-name="Rectángulo 790" width="19.343" height="1.619" transform="translate(4.969 16.127)" fill="#12284c"/>
+        <rect id="Rectángulo_791" data-name="Rectángulo 791" width="19.343" height="1.619" transform="translate(4.969 21.023)" fill="#12284c"/>
+        <rect id="Rectángulo_792" data-name="Rectángulo 792" width="28.914" height="1.619" transform="translate(0.223 6.392)" fill="#12284c"/>
+        <path id="Trazado_8298" data-name="Trazado 8298" d="M22.884,29.064H21.265V9.625H5.108V28.892H3.489V8.815a.809.809,0,0,1,.81-.809H22.074a.809.809,0,0,1,.81.809Z" transform="translate(1.428 3.276)" fill="#12284c"/>
+      </g>
+    </g>
+  </g>
+</svg>

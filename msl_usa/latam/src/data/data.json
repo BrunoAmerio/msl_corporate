@@ -1,0 +1,364 @@
+{
+  "countries": {
+    "ar": {
+      "name": "Argentina",
+      "description": "Inició operaciones en 1995.",
+      "lastDescription": "Argentina es un mercado clave en la costa este de Sudamérica.",
+      "services": ["Marítimo LCL", "Marítimo FCL", "Aéreo"],
+      "offices": [
+        {
+          "name": "Buenos Aires",
+          "address": "Av. Belgrano 355 - Planta Baja",
+          "warehouse": "-",
+          "phone": "54 11 5129-7000",
+          "email": "comercialexpo@mslcorporate.com.ar, comercialimpo@mslcorporate.com.ar, operacionesimpo@mslcorporate.com.ar, operacionesexpo@mslcorporate.com.ar",
+          "expanded": true
+        },
+        {
+          "name": "Rosario",
+          "address": "9 de julio 1940 P.2 Of.B",
+          "warehouse": "-",
+          "phone": "54 341 530 0964/ 0965",
+          "email": "comercialrosario@mslcorporate.com.ar",
+          "expanded": false
+        },
+        {
+          "name": "Córdoba",
+          "address": "Esquiu 68 – 3º B – INARCO OFFICE Bº Gral Paz",
+          "warehouse": "-",
+          "phone": "54 351 4480460",
+          "email": "comercialcordoba@mslcorporate.com.ar",
+          "expanded": false
+        },
+        {
+          "name": "Mendoza",
+          "address": "Av. Bartolomé Mitre 870, M5500 Mendoza - piso 2, oficina 1",
+          "warehouse": "-",
+          "phone": "54 261 800 2021",
+          "email": "comercialmendoza@mslcorporate.com.ar",
+          "expanded": false
+        }
+      ]
+    },
+    "br": {
+      "name": "Brasil",
+      "description": "Brasil inició sus operaciones en 1994.",
+      "lastDescription": "Su oficina principal se encuentra en São Paulo, junto con cinco sedes en el país: Santos, Campinas, Rio de Janeiro, Itajaí y Porto Alegre.",
+      "services": ["Marítimo LCL", "Marítimo FCL", "Aéreo", "Seguro"],
+      "offices": [
+        {
+          "name": "São Paulo",
+          "address": "Rua da Consolação 331 - 8 Andar. Centro- São Paulo/SP CEP: 01301-000",
+          "warehouse": "-",
+          "phone": "+55 11 2713-7900",
+          "email": "msl-spo@mslcorporate.com.br",
+          "expanded": true
+        },
+        {
+          "name": "Santos",
+          "address": "Avenida Ana Costa #228 – 12 º andar Vila Mathias – Santos / SP CEP: 11060-000",
+          "warehouse": "-",
+          "phone": "+55 13 2104-4747",
+          "email": "msl-ssz@mslcorporate.com.br",
+          "expanded": false
+        },
+        {
+          "name": "Rio de Janeiro",
+          "address": "Avenida Rio Branco, 45 – Salas 1102 e 1103 Centro – Rio de Janeiro/ RJ CEP: 20090-003",
+          "warehouse": "-",
+          "phone": "+55 21 2203-1860",
+          "email": "msl-rio@mslcorporate.com.br",
+          "expanded": false
+        },
+        {
+          "name": "Porto Alegre",
+          "address": "Rua Felipe Neri, 287, salas 404 e 405 Bairro Auxiliadora - Porto Alegre – RS – CEP 90440-150. Edifício Fortune Business Center",
+          "warehouse": "-",
+          "phone": "+55 51 3330-3001",
+          "email": "msl-poa@mslcorporate.com.br",
+          "expanded": false
+        },
+        {
+          "name": "Itajaí",
+          "address": "Rua Uruguai, 161 – 1º Andar / Sala 102 Ed. Unique – Centro - CEP 88302-201",
+          "warehouse": "-",
+          "phone": "+55 47 3349-2801",
+          "email": "msl-itj@mslcorporate.com.br",
+          "expanded": false
+        },
+        {
+          "name": "Campinas",
+          "address": "Av. José Rocha Bomfim, 214 - Vila Aeroporto - Campinas - SP, 13080-650 - Edifício Nova Iorque - cj 217",
+          "warehouse": "-",
+          "phone": "",
+          "email": "insidesales-cpq@mslcorporate.com.br",
+          "expanded": false
+        }
+      ]
+    },
+    "cl": {
+      "name": "Chile",
+      "description": "Inició sus operaciones en 2004.",
+      "lastDescription": "Chile es un mercado estratégico para nuestras operaciones en el Pacífico Sur. Oficinas: Santiago de Chile, Aeropuerto de Santiago, Valparaíso, San Antonio, Arica e Iquique.",
+      "services": ["Marítimo LCL", "Marítimo FCL", "Aéreo", "Terrestre", "Seguros", "Courier"],
+      "offices": [
+        {
+          "name": "Santiago de Chile",
+          "address": "Hendaya 60, Piso 10, Oficina 1001",
+          "warehouse": "-",
+          "phone": "56 229 794 800",
+          "email": "comercial@mslcorporate.cl",
+          "expanded": true
+        },
+        {
+          "name": "Santiago de Chile - Aeropuerto",
+          "address": "Osvaldo Croquevielle N° 2207, Oficina 212, Edificio EOS, Pudahuel",
+          "warehouse": "-",
+          "phone": "56 227 061 854",
+          "email": "comercial@mslcorporate.cl",
+          "expanded": false
+        },
+        {
+          "name": "Valparaíso",
+          "address": "Prat 732, Piso N° 2",
+          "warehouse": "-",
+          "phone": "56 227 061 886",
+          "email": "comercial@mslcorporate.cl",
+          "expanded": false
+        },
+        {
+          "name": "San Antonio",
+          "address": "Ruta G86, Aguas Buenas N° 6729, Cruce a Cartagena, San Antonio, Chile",
+          "warehouse": "-",
+          "phone": "56 9 68467180",
+          "email": "comercial@mslcorporate.cl",
+          "expanded": false
+        },
+        {
+          "name": "Arica",
+          "address": "Prat 391, Oficina 116, Edificio Empresarial",
+          "warehouse": "-",
+          "phone": "56 9 52188742",
+          "email": "comercial@mslcorporate.cl",
+          "expanded": false
+        },
+        {
+          "name": "Iquique",
+          "address": "San Martin 255, Edificio Empresarial, Oficina 131 Piso 1, Iquique",
+          "warehouse": "-",
+          "phone": "+56 9 6132 4099",
+          "email": "comercial@mslcorporate.cl",
+          "expanded": false
+        }
+      ]
+    },
+    "co": {
+      "name": "Colombia",
+      "description": "Colombia inició sus operaciones en 2006.",
+      "lastDescription": "Su salida a los océanos Pacífico y Atlántico refuerza la posición de Colombia como un punto clave para el comercio marítimo internacional. Su oficina principal se encuentra en Bogotá, y cuenta con presencia en Cartagena, Medellín, Buenaventura y en el Aeropuerto de Bogotá.",
+      "services": ["Marítimo FCL", "Marítimo LCL", "Terrestre LTL/FTL", "Aéreo"],
+      "offices": [
+        {
+          "name": "Bogotá",
+          "address": "Calle 51 Nª 71/17/29 Normandía Primer Sector",
+          "warehouse": "-",
+          "phone": "57 601 7481010",
+          "email": "comercial@mslcorporate.com.co",
+          "expanded": true
+        },
+        {
+          "name": "Bogotá: Aeropuerto Internacional El Dorado",
+          "address": "TERMINAL DE CARGA (TC2). AV CALLE 26 # 106-39. ENTRADA OFC 400 - 500. PISO 2, LOCAL 6",
+          "warehouse": "-",
+          "phone": "57 601 7481010",
+          "email": "comercial@mslcorporate.com.co",
+          "expanded": false
+        },
+        {
+          "name": "Cartagena",
+          "address": "Calle 25 N. 24A-16 Edif. Twins Bay piso 22 of: 2204 Barrio manga",
+          "warehouse": "-",
+          "phone": "57 605 6608571",
+          "email": "comercial@mslcorporate.com.co",
+          "expanded": false
+        },
+        {
+          "name": "Medellín",
+          "address": "Cra 43A N. 1a Sur -29 Edificio Colmena, Oficina 404 Barrio El Poblado",
+          "warehouse": "-",
+          "phone": "57 604 3116300 / 57 604 3116357",
+          "email": "comercial@mslcorporate.com.co",
+          "expanded": false
+        },
+        {
+          "name": "Buenaventura",
+          "address": "CRA 5A No. 5 – 46 parte alta de la chambita - piso no. 02",
+          "warehouse": "-",
+          "phone": "57 602 2444256 / 318 3264884",
+          "email": "comercial@mslcorporate.com.co",
+          "expanded": false
+        }
+      ]
+    },
+    "bo": {
+      "name": "Bolivia",
+      "description": "Bolivia inició sus operaciones en 2008 con servicios terrestres de importación desde Argentina hacia La Paz.",
+      "lastDescription": "Bolivia es un mercado en crecimiento para nuestras operaciones logísticas. Su oficina principal: Santa Cruz de la Sierra, y una oficina adicional en La Paz.",
+      "services": ["Marítimo LCL", "Marítimo FCL", "Aéreo", "Terrestre LTL/FTL", "Seguro"],
+      "offices": [
+        {
+          "name": "Santa Cruz de la Sierra",
+          "address": "Av. Alemania 3er Anillo Calle Mapajo Nº 70",
+          "warehouse": "-",
+          "phone": "(591) 3-3466777",
+          "email": "mslbolivia@mslcorporate.com.bo",
+          "expanded": true
+        },
+        {
+          "name": "La Paz",
+          "address": "Edif. \"Los Cedros\" Av. 20 de octubre esq Cap. Castrillo N°376 Piso 1 OF N°4",
+          "warehouse": "-",
+          "phone": "(+591) 2 2124567",
+          "email": "mslbolivia@mslcorporate.com.bo",
+          "expanded": false
+        }
+      ]
+    },
+    "uy": {
+      "name": "Uruguay",
+      "description": "La oficina de Uruguay inició sus operaciones en 2001.",
+      "lastDescription": "Con nuestra oficina en Montevideo, atendemos las necesidades logísticas del país.",
+      "services": ["Marítimo LCL", "Marítimo FCL", "Aéreo", "Terrestre", "E-Logistics"],
+      "offices": [
+        {
+          "name": "Montevideo",
+          "address": "Rincón 391, Ciudad Vieja",
+          "warehouse": "-",
+          "phone": "+598 2 9166566",
+          "email": "jpaez@mslcorporate.com.uy, salvez@mslcorporate.com.uy, rrhh@mslcorporate.com.uy",
+          "expanded": true
+        },
+        {
+          "name": "Montevideo - Aeropuerto",
+          "address": "Aeropuerto Internacional de Carrasco. Terminal de Cargas, Oficina 210.",
+          "warehouse": "-",
+          "phone": "+598 98 382 987",
+          "email": "balbanese@mslcorporate.com.uy",
+          "expanded": false
+        }
+      ]
+    },
+    "ve": {
+      "name": "Venezuela",
+      "description": "Inició operaciones en el 2011.",
+      "lastDescription": "Venezuela es importante para nuestras operaciones en el norte de Sudamérica. Su oficina principal se encuentra en Caracas, y cuenta con presencia en los principales puertos del país: Puerto Cabello y La Guaira.",
+      "services": ["Marítimo FCL", "Marítimo LCL", "Aéreo", "Seguro"],
+      "offices": [
+        {
+          "name": "Caracas",
+          "address": "Av. Francisco de Miranda Edif. Parque Cristal Torre oeste piso 3 oficina top-3-3 Los palos Grandes. Chacao. Caracas. Venezuela Zip code 1060",
+          "warehouse": "-",
+          "phone": "+58 212 2853093 - 2855208 – 2853769",
+          "email": "gerencia@mslgroupage.com, pricing@mslgroupage.com",
+          "expanded": true
+        },
+        {
+          "name": "Puerto Cabello",
+          "address": "Av. Bolivar cruce con Calle Segrestaa, Centro Comercial y Profesional MADEFER, Piso 1, Ofic. 4. Parroquia Fraternidad, Puerto Cabello – Edo. Carabobo, Venezuela. Zip Code 2050",
+          "warehouse": "-",
+          "phone": "+58 212 2853093 - 2855208 – 2853769",
+          "email": "gerencia@mslgroupage.com, pricing@mslgroupage.com",
+          "expanded": false
+        },
+        {
+          "name": "La Guaira",
+          "address": "Av. Domingo del Rosario, Centro Comercial Empresarial Puerta del Sol, Piso 6, Ofic. 4",
+          "warehouse": "-",
+          "phone": "+58 212 3310813/8914986",
+          "email": "gerencia@mslgroupage.com, pricing@mslgroupage.com",
+          "expanded": false
+        }
+      ]
+    },
+    "pe": {
+      "name": "Perú",
+      "description": "Perú inició sus operaciones en 2005.",
+      "lastDescription": "Perú es un mercado clave en la costa del Pacífico. Su oficina principal se encuentra en Lima, donde operan todas las unidades de negocio, a excepción del producto Aéreo, ubicado en el Centro Lima Cargo – Callao. Además, cuenta con sedes en Paita y Mollendo.",
+      "services": ["Marítimo LCL", "Marítimo FCL", "Aéreo", "Seguro"],
+      "offices": [
+        {
+          "name": "Lima",
+          "address": "Av. Parque Gonzales Prada 379, Magdalena del Mar 15076 Lima",
+          "warehouse": "-",
+          "phone": "511 462 2333",
+          "email": "mslperu@mslcorporate.com.pe",
+          "expanded": true
+        },
+        {
+          "name": "Callao",
+          "address": "Av. Elmer Faucett 2823, Lima Cargo City. Air Department",
+          "warehouse": "-",
+          "phone": "(511) 624 0210",
+          "email": "mslperu@mslcorporate.com.pe",
+          "expanded": false
+        },
+        {
+          "name": "Matarani",
+          "address": "Jr. Trompeteros Mz S Lote 4 Urb. Miramar, Mollendo",
+          "warehouse": "-",
+          "phone": "(054) 293660",
+          "email": "slimatarani@mslcorporate.com.pe",
+          "expanded": false
+        },
+        {
+          "name": "Paita",
+          "address": "Urb. Sol y Mar. Mza- F Lote. 10. Piura - Paita - Paita",
+          "warehouse": "-",
+          "phone": "(+51) 994 250 292",
+          "email": "slipaita@mslcorporate.com.pe",
+          "expanded": false
+        }
+      ]
+    },
+    "ec": {
+      "name": "Ecuador",
+      "description": "Inició sus operaciones en 2005.",
+      "lastDescription": "Ecuador es estratégico para nuestras operaciones en el Pacífico. Su oficina principal se encuentra en Guayaquil, junto con dos sedes: una en el aeropuerto de Guayaquil y otra en Quito.",
+      "services": ["Marítimo LCL", "Marítimo FCL", "Aéreo", "E-Logistics", "Seguro"],
+      "offices": [
+        {
+          "name": "Guayaquil",
+          "address": "Av. Francisco de Orellana, World Trade Center, Torre B, Piso 11, Oficina 1107",
+          "warehouse": "-",
+          "phone": "593 4 263-0102",
+          "email": "info@mslcorporate.com.ec",
+          "expanded": true
+        },
+        {
+          "name": "Quito",
+          "address": "Jorge Washington E 4-59 y Av. Amazonas, edificio Roca fuerte, bloque Washington, Piso 6",
+          "warehouse": "-",
+          "phone": "593 2 2525941 / 593 6036362",
+          "email": "info@mslcorporate.com.ec",
+          "expanded": false
+        }
+      ]
+    },
+    "py": {
+      "name": "Paraguay",
+      "description": "Paraguay inició sus operaciones en 2003.",
+      "lastDescription": "Por su ubicación geográfica, Paraguay es un mercado clave para la implementación de servicios multimodales. Su oficina principal se encuentra en Asunción.",
+      "services": ["Marítimo LCL", "Marítimo FCL", "Aéreo", "Terrestre", "Seguro"],
+      "offices": [
+        {
+          "name": "Asunción",
+          "address": "Avda. Aviadores del Chaco esq. Tte. 1ro. Carlos Rocholl - Edificio Kuarahy - 5to. Piso - Barrio Ykua Sati",
+          "warehouse": "-",
+          "phone": "+5959 21 7286060 / 61 Mob: +595 992 441207",
+          "email": "comercial@mslcorporate.com.py",
+          "expanded": true
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "nosotros": "Nosotros",
+    "historia": "Historia",
+    "msl_group": "MSL Group"
+  },
+  "header": {
+    "title": "Neutral Logistics<br>Operator",
+    "welcome": "Bienvenidos a MSL.",
+    "description": "Desde aquí puedes acceder a las páginas regionales y conocer más sobre nuestros servicios y red global.",
+    "region_label": "Region",
+    "go_to_website": "Ir al website"
+  },
+  "about": {
+    "title": "Connecting The World",
+    "scroll": "Scroll",
+    "description": "We operate and explore our services worldwide.",
+    "eyebrow": "Quienes somos",
+    "heading": "Acerca de nosotros",
+    "subheading": "Conocenos.",
+    "copy1": "Como operador neutral (NLO), ofrecemos soluciones integradas en transporte marítimo, aéreo y terrestre, junto con servicios de almacenaje (warehousing) y seguro de mercaderías.",
+    "copy2": "Contamos con oficinas propias en Sudamérica, los países nórdicos (Noruega y Suecia) y Estados Unidos. Formamos parte de MSL Group, un grupo empresarial logístico con presencia en América, el Caribe y parte de Europa y África.",
+    "button": "Ver presentación"
+  },
+  "network": {
+    "heading": "Nuestra red internacional",
+    "subheading": "América y Europa del Norte.",
+    "description": "Operaciones en toda Sudamérica, Estados Unidos y los países nórdicos, impulsando el crecimiento y la conexión entre mercados.",
+    "eyebrow": "Región",
+    "countries_label": "Países",
+    "cities_label": "Ciudades",
+    "latam": {
+      "eyebrow": "Región",
+      "title": "Latinoamérica",
+      "countries": ["Argentina", "Bolivia", "Brasil", "Chile", "Colombia", "Ecuador", "Paraguay", "Perú", "Uruguay", "Venezuela"],
+      "headquarters": "Buenos Aires, Argentina",
+      "services": "Operaciones multimodales, despacho aduanero, distribución regional.",
+      "cta": "Ir al website"
+    },
+    "usa": {
+      "eyebrow": "Region",
+      "title": "United States",
+      "countries": ["Chicago", "Los Angeles", "New York", "Miami"],
+      "headquarters": "Miami, Florida, USA",
+      "services": "Freight forwarding, fulfillment e-commerce, cadena de frío.",
+      "cta": "Ir al website"
+    },
+    "europa": {
+      "eyebrow": "Region",
+      "title": "Nordic",
+      "countries": ["Noruega", "Suecia"],
+      "headquarters": "Rotterdam, Países Bajos",
+      "services": "Transporte intermodal, gestión de inventario, soluciones 3PL.",
+      "cta": "Ir al website"
+    }
+  },
+  "journey": {
+    "heading": "Un viaje por nuestra historia",
+    "latam": {
+      "label": "Latam",
+      "meta_text": "MSL fue creado en Argentina",
+      "details": "Comenzamos operaciones como consolidador marítimo neutral, y posteriormente, fuimos ampliando nuestra gama de servicios hasta convertirnos en NLO."
+    },
+    "usa": {
+      "label": "USA",
+      "meta_text": "Primera oficina en USA: Miami",
+      "details": "Nació de una alianza entre MSL e IFS (marca española) y marcó el inicio de nuestra expansión en el mercado estadounidense, con presencia actual en Los Ángeles, Chicago y Nueva York."
+    },
+    "nordic": {
+      "label": "Nordic",
+      "meta_text": "Expansión hacia el norte de Europa.",
+      "details": "Fundado en 2008, LT Group se consolidó como una empresa líder en servicios marítimos y logísticos en el norte de Europa. En 2025, fue adquirido por MSL Group, dando origen a MSL Nordic: el primer NLO en Escandinavia, que combina la experiencia regional con la red global del grupo."
+    }
+  },
+  "msl_group": {
+    "cta": "Ir al website"
+  },
+  "footer": {
+    "copyright": "MSL®<br/>Todos los derechos reservados<br/>2025",
+    "tagline": "Neutral Logistics Operator",
+    "sections_title": "Secciones",
+    "contact_mails_title": "Mails de contacto",
+    "social_media_title": "Redes sociales",
+    "nlo_text": "Neutral<br/>Logistics Operator",
+    "icargo_text": "Somos parte de la alianza iCargo",
+    "policy": "Política y Permisos",
+    "made_by": "Made by Rango Studio™"
+  }
+}
+

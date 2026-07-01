@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430" height="366.281" viewBox="0 0 430 366.281">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.472" cy="1.03" r="0.766" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#7196cc"/>
+      <stop offset="0.448" stop-color="#1b417a"/>
+      <stop offset="0.719" stop-color="#001e4b"/>
+      <stop offset="1" stop-color="#00132f"/>
+    </radialGradient>
+  </defs>
+  <rect id="Firefly_barco_de_carga_navegando_en_el_oceano._Cielo_despejado._FULL_HD._Los_contenedores_de_288204" data-name="Firefly_barco de carga navegando en el oceano. Cielo despejado. FULL HD. Los contenedores de  288204" width="430" height="366.281" fill="url(#radial-gradient)"/>
+</svg>
