@@ -79,7 +79,7 @@ $seoPage = 'home';
 
     <section id="we_are">
       <article class="article-left">
-        <h1><?php echo t('home.we_are.title', $translations); ?></h1>
+        <h2><?php echo t('home.we_are.title', $translations); ?></h2>
 
         <p> <strong><?php echo t('home.we_are.description', $translations); ?></strong></p>
 
@@ -662,7 +662,7 @@ $seoPage = 'home';
           locationImage.src = data.image;
           locationTitle.textContent = data.title;
           locationText.innerHTML = data.text;
-          locationMoreBtn.onclick = () => window.location.href = `offices.php#${data.slug}`;
+          locationMoreBtn.onclick = () => window.location.href = `offices#${data.slug}`;
           locationPreview.classList.add('active');
           mslGroupTop.classList.add('active');
         }
@@ -714,7 +714,7 @@ $seoPage = 'home';
         locationImage.src = data.image;
         locationTitle.textContent = data.title;
         locationText.innerHTML = data.text;
-        locationMoreBtn.onclick = () => window.location.href = `offices.php#${data.slug}`;
+        locationMoreBtn.onclick = () => window.location.href = `offices#${data.slug}`;
         locationPreview.classList.add('active');
         mslGroupTop.classList.add('active');
       });
@@ -736,7 +736,7 @@ $seoPage = 'home';
         locationImage.src = data.image;
         locationTitle.textContent = data.title;
         locationText.innerHTML = data.text;
-        locationMoreBtn.onclick = () => window.location.href = `offices.php#${data.slug}`;
+        locationMoreBtn.onclick = () => window.location.href = `offices#${data.slug}`;
         locationPreview.classList.add('active');
         mslGroupTop.classList.add('active');
       }

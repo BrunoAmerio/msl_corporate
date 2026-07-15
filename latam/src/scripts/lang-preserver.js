@@ -30,8 +30,11 @@
                 if (match && match[1]) {
                     let url = match[1];
                     
-                    // Solo procesar URLs internas (.php)
-                    if (url.includes('.php') && !url.includes('lang=')) {
+                    // Solo procesar URLs internas (.php o paths amigables)
+                    const isInternal = (url.includes('.php') || /^(\.?\/)?(about-us|services|offices|contact-us|index)(\?|#|$)/.test(url) || url === './' || url.startsWith('./?'))
+                        && !url.includes('lang=')
+                        && !url.startsWith('http');
+                    if (isInternal) {
                         // Preservar hash si existe
                         const hash = url.includes('#') ? '#' + url.split('#')[1] : '';
                         url = url.split('#')[0];
