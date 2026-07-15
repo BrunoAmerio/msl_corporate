@@ -1,0 +1,20 @@
+RewriteEngine On
+
+# No tocar admin ni endpoints de formularios
+RewriteRule ^admin/ - [L]
+RewriteRule ^send-contact-form\.php$ - [L]
+RewriteRule ^send-work-form\.php$ - [L]
+
+# 301 home: index.php → /latam/
+RewriteCond %{THE_REQUEST} \s/+latam/index\.php[\s?] [NC]
+RewriteRule ^index\.php$ /latam/ [R=301,L,QSA]
+
+# 301 resto: about-us|services|offices|contact-us.php → URL amigable (QSA preserva query)
+RewriteCond %{THE_REQUEST} \s/+latam/(about-us|services|offices|contact-us)\.php[\s?] [NC]
+RewriteRule ^(about-us|services|offices|contact-us)\.php$ /latam/$1 [R=301,L,QSA]
+
+# Interno: URL amigable → .php si el archivo existe
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([a-z0-9\-]+)/?$ $1.php [L,QSA]
