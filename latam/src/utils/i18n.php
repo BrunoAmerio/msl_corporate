@@ -74,45 +74,101 @@ function t($key, $translations = null) {
     return is_string($value) ? $value : $key;
 }
 
+define('SEO_SITE_ORIGIN', 'https://mslcorporate.com');
+
 /**
- * Genera una URL con el parámetro de idioma
- * @param string $url URL base (ej: "index.php", "contact-us.php")
- * @param string|null $lang Idioma específico (opcional, usa el actual si no se proporciona)
- * @param array $additionalParams Parámetros adicionales para la URL
- * @return string URL completa con el parámetro lang
+ * Convierte path de página pública a URL amigable (sin .php).
+ * No altera send-*-form.php ni rutas admin.
  */
-function urlWithLang($url, $lang = null, $additionalParams = []) {
-    if ($lang === null) {
-        $lang = getCurrentLanguage();
-    }
-    
-    // Si la URL contiene un hash, separarlo
+function seoPagePath($url) {
     $hash = '';
     if (strpos($url, '#') !== false) {
         $parts = explode('#', $url, 2);
         $url = $parts[0];
         $hash = '#' . $parts[1];
     }
-    
-    // Parámetros base
-    $params = array_merge(['lang' => $lang], $additionalParams);
-    
-    // Separar URL base de query string existente
+
+    $path = $url;
+    if (strpos($url, '?') !== false) {
+        $path = strstr($url, '?', true);
+    }
+
+    $base = basename($path);
+    $publicNames = ['index', 'about-us', 'services', 'offices', 'contact-us'];
+    $name = preg_replace('/\.php$/', '', $base);
+
+    if (!in_array($name, $publicNames, true)) {
+        return $url . $hash;
+    }
+
+    if ($name === 'index') {
+        $friendly = './';
+    } else {
+        $friendly = $name;
+    }
+
+    return $friendly . $hash;
+}
+
+/**
+ * Genera una URL amigable con el parámetro de idioma (omite lang si es default).
+ * @param string $url URL base (ej: "index.php", "contact-us.php")
+ * @param string|null $lang Idioma específico (opcional, usa el actual si no se proporciona)
+ * @param array $additionalParams Parámetros adicionales para la URL
+ * @return string URL completa con el parámetro lang según convención SEO
+ */
+function urlWithLang($url, $lang = null, $additionalParams = []) {
+    if ($lang === null) {
+        $lang = getCurrentLanguage();
+    }
+
+    $hash = '';
+    if (strpos($url, '#') !== false) {
+        $parts = explode('#', $url, 2);
+        $url = $parts[0];
+        $hash = '#' . $parts[1];
+    }
+
     $urlParts = parse_url($url);
     $baseUrl = isset($urlParts['path']) ? $urlParts['path'] : $url;
     $existingQuery = isset($urlParts['query']) ? $urlParts['query'] : '';
-    
-    // Parsear query string existente
     parse_str($existingQuery, $existingParams);
-    
-    // Combinar parámetros (los nuevos sobrescriben los existentes)
+
+    $baseUrl = seoPagePath($baseUrl);
+
+    $params = $additionalParams;
+    if ($lang !== DEFAULT_LANGUAGE) {
+        $params['lang'] = $lang;
+    }
     $allParams = array_merge($existingParams, $params);
-    
-    // Construir URL
+    if ($lang === DEFAULT_LANGUAGE) {
+        unset($allParams['lang']);
+    }
+
     $queryString = http_build_query($allParams);
-    $result = $baseUrl . ($queryString ? '?' . $queryString : '') . $hash;
-    
-    return $result;
+    return $baseUrl . ($queryString ? '?' . $queryString : '') . $hash;
+}
+
+/**
+ * @param string $pageKey home|about-us|services|offices|contact-us
+ * @return string URL canónica absoluta
+ */
+function seoCanonicalUrl($pageKey, $lang = null) {
+    if ($lang === null) {
+        $lang = getCurrentLanguage();
+    }
+
+    if ($pageKey === 'home' || $pageKey === 'index') {
+        $path = '/latam/';
+    } else {
+        $path = '/latam/' . $pageKey;
+    }
+
+    $url = SEO_SITE_ORIGIN . $path;
+    if ($lang !== DEFAULT_LANGUAGE) {
+        $url .= '?lang=' . rawurlencode($lang);
+    }
+    return $url;
 }
 
 /**
