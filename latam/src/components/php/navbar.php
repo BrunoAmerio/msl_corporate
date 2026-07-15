@@ -26,7 +26,7 @@ $translations = loadTranslations();
 
             <div class="dropdown">
                 <a href="<?php echo urlWithLang('services.php'); ?>" class="anchor-animation"><?php echo t('nav.services', $translations); ?></a>
-                <img alt="arrow" src="src/images/arrow_blue.svg"/>
+                <img alt="" aria-hidden="true" src="src/images/arrow_blue.svg"/>
 
                 <div class="dropdown-content">
                     <a href="<?php echo urlWithLang('services.php#ocean'); ?>">
@@ -67,7 +67,7 @@ $translations = loadTranslations();
 
             <div class="dropdown">
                 <a href="<?php echo urlWithLang('offices.php'); ?>" class="anchor-animation"><?php echo t('nav.offices', $translations); ?></a>
-                <img alt="arrow" src="src/images/arrow_blue.svg"/>
+                <img alt="" aria-hidden="true" src="src/images/arrow_blue.svg"/>
 
                 <div class="dropdown-content">
                     <a href="<?php echo urlWithLang('offices.php#argentina'); ?>">
@@ -135,25 +135,25 @@ $translations = loadTranslations();
 
         <div class="other-container">
             <div class="social-media">
-                <a href="https://www.linkedin.com/company/msl-corporate/" target="_blank"><img src="src/images/linkedin_logo.svg"/></a>
-                <a href="https://www.instagram.com/mslcorporate" target="_blank"><img src="src/images/instagram_logo.svg"/></a>
-                <a href="https://www.facebook.com/mslcorporate" target="_blank"><img src="src/images/facebook_logo.svg"/></a>
+                <a href="https://www.linkedin.com/company/msl-corporate/" target="_blank"><img src="src/images/linkedin_logo.svg" alt="LinkedIn"/></a>
+                <a href="https://www.instagram.com/mslcorporate" target="_blank"><img src="src/images/instagram_logo.svg" alt="Instagram"/></a>
+                <a href="https://www.facebook.com/mslcorporate" target="_blank"><img src="src/images/facebook_logo.svg" alt="Facebook"/></a>
             </div>
 
             <div class="login-dropdown" id="loginDropdown">
                 <a href="#" class="login" onclick="toggleLoginDropdown(event)">
-                    <img alt="user" src="src/images/user_icon.svg"/>
+                    <img alt="" aria-hidden="true" src="src/images/user_icon.svg"/>
                     <p><?php echo t('nav.login', $translations); ?></p>
                 </a>
                 <div class="login-dropdown-content" id="loginDropdownContent">
                     <div class="login-option" onclick="window.open('https://www.mslwebtools.com/Account/Login', '_blank')">
                         <span><?php echo t('nav.clients', $translations); ?></span>
-                        <img src="src/images/arrow_outward.svg" alt="arrow outward"/>
+                        <img src="src/images/arrow_outward.svg" alt="" aria-hidden="true"/>
                     </div>
                     <div class="divider"></div>
                     <div class="login-option" onclick="window.open('https://www.tracktraceagentes.com/', '_blank')">
                         <span><?php echo t('nav.agents', $translations); ?></span>
-                        <img src="src/images/arrow_outward.svg" alt="arrow outward"/>
+                        <img src="src/images/arrow_outward.svg" alt="" aria-hidden="true"/>
                     </div>
                 </div>
             </div>
@@ -161,7 +161,7 @@ $translations = loadTranslations();
             <div class="language-selector" id="languageSelector">
                 <div class="visible">
                     <span><?php echo $langDisplay; ?></span>
-                    <img alt="arrow" src="src/images/arrow_light.svg" class="arrow"/>
+                    <img alt="" aria-hidden="true" src="src/images/arrow_light.svg" class="arrow"/>
                 </div>
 
                 <div class="dropdown-content">
@@ -186,17 +186,17 @@ $translations = loadTranslations();
             <div class="region_selector" id="regionSelector">
                 <p class="region_selector_title"><?php echo t('nav.region', $translations); ?></p>
                 <div class="region_display" onclick="toggleRegionDropdown()">
-                    <img src="src/images/world_light.svg" alt="world"/>
+                    <img src="src/images/world_light.svg" alt="" aria-hidden="true"/>
                     <p id="selectedRegion">LATAM</p>
-                    <img src="src/images/arrow_light.svg" alt="arrow" class="arrow"/>
+                    <img src="src/images/arrow_light.svg" alt="" aria-hidden="true" class="arrow"/>
                 </div>
                 <div class="region_dropdown" id="regionDropdown">
                     <div class="region_option" onclick="selectRegion('USA')">
-                        <img src="src/images/world_icon_blue.svg" alt="world"/>
+                        <img src="src/images/world_icon_blue.svg" alt="" aria-hidden="true"/>
                         <span>USA</span>
                     </div>
                     <div class="region_option" onclick="selectRegion('Nordic')">
-                        <img src="src/images/world_icon_blue.svg" alt="world"/>
+                        <img src="src/images/world_icon_blue.svg" alt="" aria-hidden="true"/>
                         <span>Nordic</span>
                     </div>
                 </div>
@@ -226,7 +226,7 @@ $translations = loadTranslations();
                     <div class="dropdown">
                         <p onclick="toggleDropdown('solutions-dropdown')">
                             <?php echo t('nav.solutions', $translations); ?>
-                            <img alt="arrow" src="src/images/arrow_blue.svg"/>
+                            <img alt="" aria-hidden="true" src="src/images/arrow_blue.svg"/>
                         </p>
 
                         <div class="dropdown-content">
@@ -251,7 +251,7 @@ $translations = loadTranslations();
                     <div class="dropdown">
                         <p onclick="toggleDropdown('offices-dropdown')">
                             <?php echo t('nav.offices', $translations); ?>
-                            <img alt="arrow" src="src/images/arrow_blue.svg"/>
+                            <img alt="" aria-hidden="true" src="src/images/arrow_blue.svg"/>
                         </p>
 
                         <div class="dropdown-content">
@@ -285,7 +285,7 @@ $translations = loadTranslations();
                     <div class="language-selector">
                         <div class="visible">
                             <div><?php echo $langDisplay; ?></div>
-                            <img alt="arrow" src="src/images/arrow_blue.svg"/>
+                            <img alt="" aria-hidden="true" src="src/images/arrow_blue.svg"/>
                         </div>
 
                         <div class="dropdown-content">
@@ -309,9 +309,9 @@ $translations = loadTranslations();
                 </div>
                 <div class="social-media">
                     <p><?php echo t('nav.social_media', $translations); ?>:</p>
-                        <a href="https://www.linkedin.com/company/msl-corporate/" target="_blank"><img src="src/images/linkedin_logo.svg"/></a>
-                        <a href="https://www.instagram.com/mslcorporate" target="_blank"><img src="src/images/instagram_logo.svg"/></a>
-                        <a href="https://www.facebook.com/mslcorporate" target="_blank"><img src="src/images/facebook_logo.svg"/></a>
+                        <a href="https://www.linkedin.com/company/msl-corporate/" target="_blank"><img src="src/images/linkedin_logo.svg" alt="LinkedIn"/></a>
+                        <a href="https://www.instagram.com/mslcorporate" target="_blank"><img src="src/images/instagram_logo.svg" alt="Instagram"/></a>
+                        <a href="https://www.facebook.com/mslcorporate" target="_blank"><img src="src/images/facebook_logo.svg" alt="Facebook"/></a>
                 </div>
             </div>
         </div>

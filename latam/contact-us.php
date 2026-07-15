@@ -38,7 +38,7 @@ $hubspotContactFormId = $hubspotContactFormIds[$currentLang] ?? $hubspotContactF
   
     <article class="content">
       <div class="left">
-        <img alt="contact" src="src/images/contact-image.png"/>
+        <img alt="MSL contact" src="src/images/contact-image.png"/>
         <div class="branding">
         <div class="logo">
           <img src="src/images/header_logo.svg" alt="MSL Logo">

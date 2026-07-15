@@ -39,7 +39,7 @@ $seoPage = 'about-us';
     </div>
 
     <div class="copyright">
-      <img alt="logo" src="src/images/header_logo.svg"/>
+      <img alt="MSL Logo" src="src/images/header_logo.svg"/>
       <p>
         <?php echo t('about.common.copyright', $translations); ?>
     </div>
@@ -54,10 +54,10 @@ $seoPage = 'about-us';
       <div class="who-we-are-content">
         <div class="images-container">
           <div>
-            <img src="src/images/about_us_image_1.png" alt="image"/>
+            <img src="src/images/about_us_image_1.png" alt="MSL team"/>
           </div>
           <div>
-            <img src="src/images/about_us_image_2.png" alt="image"/>
+            <img src="src/images/about_us_image_2.png" alt="MSL operations"/>
           </div>
         </div>
 
@@ -89,10 +89,10 @@ $seoPage = 'about-us';
 
         <div class="right">
           <div>
-            <img src="src/images/about_us_image_3.png" alt="image"/>
+            <img src="src/images/about_us_image_3.png" alt="MSL history"/>
           </div>
           <div>
-            <img src="src/images/about_us_image_4.png" alt="image"/>
+            <img src="src/images/about_us_image_4.png" alt="MSL offices"/>
           </div>
         </div>
       </div>

@@ -14,17 +14,17 @@ $translations = loadTranslations();
             <div class="region_selector" id="regionSelectorFooter">
                 <p class="region_selector_title"><?php echo t('footer.region', $translations); ?></p>
                 <div class="region_display" onclick="toggleRegionDropdownFooter()">
-                    <img src="src/images/world_icon_blue.svg" alt="world"/>
+                    <img src="src/images/world_icon_blue.svg" alt="" aria-hidden="true"/>
                     <p id="selectedRegionFooter">LATAM</p>
-                    <img src="src/images/arrow_blue.svg" alt="arrow" class="arrow"/>
+                    <img src="src/images/arrow_blue.svg" alt="" aria-hidden="true" class="arrow"/>
                 </div>
                 <div class="region_dropdown" id="regionDropdownFooter">
                     <div class="region_option" onclick="selectRegionFooter('USA')">
-                        <img src="src/images/world_icon_blue.svg" alt="world"/>
+                        <img src="src/images/world_icon_blue.svg" alt="" aria-hidden="true"/>
                         <span>USA</span>
                     </div>
                     <div class="region_option" onclick="selectRegionFooter('Nordic')">
-                        <img src="src/images/world_icon_blue.svg" alt="world"/>
+                        <img src="src/images/world_icon_blue.svg" alt="" aria-hidden="true"/>
                         <span>Nordic</span>
                     </div>
                 </div>
@@ -42,9 +42,9 @@ $translations = loadTranslations();
 
         <div class="third-column">
             <h4><?php echo t('footer.social_media', $translations); ?></h4>
-            <img src="src/images/linkedin-svgrepo-com-2.svg" alt="linkedin" onclick="window.open('https://www.linkedin.com/company/msl-corporate/', '_blank')"/>
-            <img src="src/images/instagram-logo-facebook-2-svgrepo-com.svg" alt="instagram" onclick="window.open('https://www.instagram.com/mslcorporate', '_blank')"/>
-            <img src="src/images/facebook-svgrepo-com.svg" alt="facebook" onclick="window.open('https://www.facebook.com/mslcorporate', '_blank')"/>
+            <img src="src/images/linkedin-svgrepo-com-2.svg" alt="LinkedIn" onclick="window.open('https://www.linkedin.com/company/msl-corporate/', '_blank')"/>
+            <img src="src/images/instagram-logo-facebook-2-svgrepo-com.svg" alt="Instagram" onclick="window.open('https://www.instagram.com/mslcorporate', '_blank')"/>
+            <img src="src/images/facebook-svgrepo-com.svg" alt="Facebook" onclick="window.open('https://www.facebook.com/mslcorporate', '_blank')"/>
         </div>
 
         <div class="fourth-column">
@@ -72,17 +72,17 @@ $translations = loadTranslations();
             <div class="region_selector_mobile">
                 <p class="region_selector_title"><?php echo t('footer.region', $translations); ?></p>
                 <div class="region_display" onclick="toggleRegionDropdownMobileFooter()">
-                    <img src="src/images/world_icon_blue.svg" alt="world"/>
+                    <img src="src/images/world_icon_blue.svg" alt="" aria-hidden="true"/>
                     <p id="selectedRegionMobileFooter">LATAM</p>
-                    <img src="src/images/arrow_blue.svg" alt="arrow" class="arrow"/>
+                    <img src="src/images/arrow_blue.svg" alt="" aria-hidden="true" class="arrow"/>
                 </div>
                 <div class="region_dropdown" id="regionDropdownMobileFooter">
                     <div class="region_option" onclick="selectRegionMobileFooter('USA')">
-                        <img src="src/images/world_icon_blue.svg" alt="world"/>
+                        <img src="src/images/world_icon_blue.svg" alt="" aria-hidden="true"/>
                         <span>USA</span>
                     </div>
                     <div class="region_option" onclick="selectRegionMobileFooter('Nordic')">
-                        <img src="src/images/world_icon_blue.svg" alt="world"/>
+                        <img src="src/images/world_icon_blue.svg" alt="" aria-hidden="true"/>
                         <span>Nordic</span>
                     </div>
                 </div>
@@ -115,9 +115,9 @@ $translations = loadTranslations();
         <div class="footer-bottom">    
             <div class="third-column">
                 <h4><?php echo t('footer.social_media', $translations); ?></h4>
-                <img src="src/images/linkedin-svgrepo-com-2.svg" alt="linkedin" onclick="window.open('https://www.linkedin.com/company/msl-corporate/', '_blank')"/>
-                <img src="src/images/instagram-logo-facebook-2-svgrepo-com.svg" alt="instagram" onclick="window.open('https://www.instagram.com/mslcorporate', '_blank')"/>
-                <img src="src/images/facebook-svgrepo-com.svg" alt="facebook" onclick="window.open('https://www.facebook.com/mslcorporate', '_blank')"/>
+                <img src="src/images/linkedin-svgrepo-com-2.svg" alt="LinkedIn" onclick="window.open('https://www.linkedin.com/company/msl-corporate/', '_blank')"/>
+                <img src="src/images/instagram-logo-facebook-2-svgrepo-com.svg" alt="Instagram" onclick="window.open('https://www.instagram.com/mslcorporate', '_blank')"/>
+                <img src="src/images/facebook-svgrepo-com.svg" alt="Facebook" onclick="window.open('https://www.facebook.com/mslcorporate', '_blank')"/>
             </div>
         </div>
     </div>

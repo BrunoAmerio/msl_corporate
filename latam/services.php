@@ -21,7 +21,7 @@ $seoPage = 'services';
     <?php include 'src/components/php/navbar.php'; ?>
   
   <section id="services-page-top">
-    <img alt="background" src="src/images/servicios.png" class="background"/>
+    <img alt="" aria-hidden="true" src="src/images/servicios.png" class="background"/>
 
     <div class="top">
       <h1><?php echo t('services_page.header.title', $translations); ?></h1>
@@ -42,24 +42,24 @@ $seoPage = 'services';
       <h2><?php echo t('services_page.info.title', $translations); ?></h2>
     </div>
     <div class="middle">
-      <img src="src/images/nlo_logo.svg">
+      <img src="src/images/nlo_logo.svg" alt="Neutral Logistics Operator">
       <div class="separation"></div>
       <p><?php echo t('services_page.info.nlo_description', $translations); ?></p>
     </div>
     <div class="bottom">
-      <img src="src/images/parallax_nlo.png" class="parallax-image">
+      <img src="src/images/parallax_nlo.png" class="parallax-image" alt="" aria-hidden="true">
     </div>
   </section>
 
   <section id="services-container">
     <div class="service ocean-service">
      <div class="image">
-      <img src="src/images/ocean_image_service.png" alt="image"/>
+      <img src="src/images/ocean_image_service.png" alt="Ocean freight"/>
      </div>
 
      <div class="content">
       <div class="chip">
-        <img src="src/images/ocean_icon.svg"/>
+        <img src="src/images/ocean_icon.svg" alt="" aria-hidden="true"/>
       </div>
 
       <h2><?php echo t('services_page.ocean.title', $translations); ?></h2>
@@ -84,12 +84,12 @@ $seoPage = 'services';
 
     <div class="service air-service">
       <div class="image">
-        <img src="src/images/air_image_service.png" alt="image"/>
+        <img src="src/images/air_image_service.png" alt="Air freight"/>
       </div>
  
       <div class="content">
        <div class="chip">
-         <img src="src/images/air_icon.svg"/>
+         <img src="src/images/air_icon.svg" alt="" aria-hidden="true"/>
        </div>
  
        <h2><?php echo t('services_page.air.title', $translations); ?></h2>
@@ -126,12 +126,12 @@ $seoPage = 'services';
 
     <div class="service trucking-service">
       <div class="image">
-        <img src="src/images/trucking_image_service.png" alt="image"/>
+        <img src="src/images/trucking_image_service.png" alt="Trucking"/>
       </div>
  
       <div class="content">
        <div class="chip">
-         <img src="src/images/trucking_icon.svg"/>
+         <img src="src/images/trucking_icon.svg" alt="" aria-hidden="true"/>
        </div>
  
        <h2><?php echo t('services_page.truck.title', $translations); ?></h2>
@@ -148,12 +148,12 @@ $seoPage = 'services';
 
     <div class="service warehouse-service">
       <div class="image">
-        <img src="src/images/warehousing_image_service.png" alt="image"/>
+        <img src="src/images/warehousing_image_service.png" alt="Warehousing"/>
       </div>
  
       <div class="content">
        <div class="chip">
-         <img src="src/images/warehousing_icon.svg"/>
+         <img src="src/images/warehousing_icon.svg" alt="" aria-hidden="true"/>
        </div>
  
        <h2><?php echo t('services_page.warehousing.title', $translations); ?></h2>
@@ -170,12 +170,12 @@ $seoPage = 'services';
 
     <div class="service elogistics-service">
       <div class="image">
-        <img src="src/images/elogistic_image_service.png" alt="image"/>
+        <img src="src/images/elogistic_image_service.png" alt="E-logistics"/>
       </div>
  
       <div class="content">
        <div class="chip">
-         <img src="src/images/e_logistic_icon.svg"/>
+         <img src="src/images/e_logistic_icon.svg" alt="" aria-hidden="true"/>
        </div>
  
        <h2><?php echo t('services_page.elogistics.title', $translations); ?></h2>
@@ -218,12 +218,12 @@ $seoPage = 'services';
 
     <div class="service insurance-service">
       <div class="image">
-        <img src="src/images/insurance_image_service.png" alt="image"/>
+        <img src="src/images/insurance_image_service.png" alt="Cargo insurance"/>
       </div>
  
       <div class="content">
        <div class="chip">
-         <img src="src/images/insurance_icon.svg"/>
+         <img src="src/images/insurance_icon.svg" alt="" aria-hidden="true"/>
        </div>
  
        <h2><?php echo t('services_page.insurance.title', $translations); ?></h2>

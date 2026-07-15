@@ -134,64 +134,64 @@ $peruTarifarioLinks = array_map(function ($file) use ($tarifariosDirectoryName) 
       </div>
 
       <div class="bottom-text">
-        <img alt="msl_logo" src="src/images/footer_logo.svg"/>
+        <img alt="MSL Logo" src="src/images/footer_logo.svg"/>
         <p><?php echo t('offices_page.header.copyright', $translations); ?></p>
       </div>
 
 
       <div class="images">
-        <img alt="background" src="src/images/location-background.svg" class="background"/>
+        <img alt="" aria-hidden="true" src="src/images/location-background.svg" class="background"/>
         <div class="country-map-container">
-          <img alt="map" src="src/images/latam_map_points.svg" class="map"/>
+          <img alt="Latin America map" src="src/images/latam_map_points.svg" class="map"/>
 
           <div class="region-container active" id="north-america">
             <div class="chip-map" id="ar">
-              <img alt="flag" src="src/images/flags/ar.svg"/>
+              <img alt="Argentina" src="src/images/flags/ar.svg"/>
               <p><?php echo t('offices_page.countries.ar.name', $translations); ?></p>
             </div>
 
             <div class="chip-map" id="cl">
-              <img alt="flag" src="src/images/flags/cl.svg"/>
+              <img alt="Chile" src="src/images/flags/cl.svg"/>
               <p><?php echo t('offices_page.countries.cl.name', $translations); ?></p>
             </div>
 
             <div class="chip-map" id="co">
-              <img alt="flag" src="src/images/flags/co.svg"/>
+              <img alt="Colombia" src="src/images/flags/co.svg"/>
               <p><?php echo t('offices_page.countries.co.name', $translations); ?></p>
             </div>
 
             <div class="chip-map" id="bo">
-              <img alt="flag" src="src/images/flags/bo.svg"/>
+              <img alt="Bolivia" src="src/images/flags/bo.svg"/>
               <p><?php echo t('offices_page.countries.bo.name', $translations); ?></p>
             </div>
 
             <div class="chip-map" id="uy">
-              <img alt="flag" src="src/images/flags/uy.svg"/>
+              <img alt="Uruguay" src="src/images/flags/uy.svg"/>
               <p><?php echo t('offices_page.countries.uy.name', $translations); ?></p>
             </div>
 
             <div class="chip-map" id="ve">
-              <img alt="flag" src="src/images/flags/ve.svg"/>
+              <img alt="Venezuela" src="src/images/flags/ve.svg"/>
               <p><?php echo t('offices_page.countries.ve.name', $translations); ?></p>
             </div>
 
             <div class="chip-map" id="pe">
-              <img alt="flag" src="src/images/flags/pe.svg"/>
+              <img alt="Peru" src="src/images/flags/pe.svg"/>
               <p><?php echo t('offices_page.countries.pe.name', $translations); ?></p>
             </div>
 
             <div class="chip-map" id="ec">
-              <img alt="flag" src="src/images/flags/ec.svg"/>
+              <img alt="Ecuador" src="src/images/flags/ec.svg"/>
               <p><?php echo t('offices_page.countries.ec.name', $translations); ?></p>
             </div>
 
             <div class="chip-map" id="py">
-              <img alt="flag" src="src/images/flags/py.svg"/>
+              <img alt="Paraguay" src="src/images/flags/py.svg"/>
               <p><?php echo t('offices_page.countries.py.name', $translations); ?></p>
             </div>
 
             <div class="chip-map" id="br">
-              <img alt="flag" src="src/images/flags/br.svg"/>
+              <img alt="Brazil" src="src/images/flags/br.svg"/>
               <p><?php echo t('offices_page.countries.br.name', $translations); ?></p>
             </div>
           </div>
@@ -371,7 +371,7 @@ $peruTarifarioLinks = array_map(function ($file) use ($tarifariosDirectoryName) 
         locationCard.innerHTML = `
           <div class="location-header">
             <div class="location-left">
-              <img alt="flag" src="src/images/flags/${countryId}.svg"/>
+              <img alt="${countryName}" src="src/images/flags/${countryId}.svg"/>
               <div class="location-text">
                 <p>${countryName}</p>
                 <h2>${office.name}</h2>
@@ -379,7 +379,7 @@ $peruTarifarioLinks = array_map(function ($file) use ($tarifariosDirectoryName) 
             </div>
             <div class="location-right">
               <button class="toggle-btn">
-                <img alt="arrow" src="src/images/arrow_blue.svg"/>
+                <img alt="" aria-hidden="true" src="src/images/arrow_blue.svg"/>
               </button>
             </div>
           </div>

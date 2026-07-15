@@ -44,14 +44,14 @@ $seoPage = 'home';
       </article>
 
       <article class="webtools">
-        <p class="webtools-title-mobile">WEBTOOLS <img src="src/images/arrow_down.svg" alt="arrow"/></p>
+        <p class="webtools-title-mobile">WEBTOOLS <img src="src/images/arrow_down.svg" alt="" aria-hidden="true"/></p>
         <div class="element" onclick="window.open('https://www.mslwebtools.com/Schedule', '_blank')">
           <p>WEBTOOLS</p>
           <h2>Schedule</h2>
   
           <button>
             <p><?php echo t('home.common.view_more', $translations); ?></p>
-            <img alt="arrow" src="src/images/arrow_blue.svg"/>
+            <img alt="" aria-hidden="true" src="src/images/arrow_blue.svg"/>
           </button>
         </div>
   
@@ -61,7 +61,7 @@ $seoPage = 'home';
   
           <button>
             <p><?php echo t('home.common.view_more', $translations); ?></p>
-            <img alt="arrow" src="src/images/arrow_blue.svg"/>
+            <img alt="" aria-hidden="true" src="src/images/arrow_blue.svg"/>
           </button>
         </div>
 
@@ -71,7 +71,7 @@ $seoPage = 'home';
   
           <button>
             <p><?php echo t('home.common.view_more', $translations); ?></p>
-            <img alt="arrow" src="src/images/arrow_blue.svg"/>
+            <img alt="" aria-hidden="true" src="src/images/arrow_blue.svg"/>
           </button>
         </div>
       </article>
@@ -85,16 +85,16 @@ $seoPage = 'home';
 
         <p><?php echo t('home.we_are.description_full', $translations); ?></p>
 
-        <button onclick="window.location.href='<?php echo urlWithLang('about-us.php'); ?>'"><?php echo t('home.we_are.button', $translations); ?> <img src="src/images/arrow_blue.svg" alt="arrow"/></button>
+        <button onclick="window.location.href='<?php echo urlWithLang('about-us.php'); ?>'"><?php echo t('home.we_are.button', $translations); ?> <img src="src/images/arrow_blue.svg" alt="" aria-hidden="true"/></button>
       </article>
 
       <article class="article-right">
         <div class="text">
-          <img alt="msl logo" src="src/images/header_logo.svg" class="msl-logo"/>
+          <img alt="MSL Logo" src="src/images/header_logo.svg" class="msl-logo"/>
           <p><?php echo t('home.common.copyright', $translations); ?></p>
         </div>
 
-        <img alt="we are MLS" src="src/images/we_are.png" class="img-right"/>
+        <img alt="we are MSL" src="src/images/we_are.png" class="img-right"/>
       </article>
     </section>
 
@@ -107,7 +107,7 @@ $seoPage = 'home';
 
         <div>
           <div class="anchor" onclick="window.location.href='<?php echo urlWithLang('services.php'); ?>'">
-            <a><?php echo t('home.services.button', $translations); ?> <img alt="arrow" src="src/images/arrow_blue.svg"/> </a>
+            <a><?php echo t('home.services.button', $translations); ?> <img alt="" aria-hidden="true" src="src/images/arrow_blue.svg"/> </a>
           </div>
 
           <p><strong><?php echo t('home.services.subtitle', $translations); ?></strong></p>
@@ -128,10 +128,10 @@ $seoPage = 'home';
           > 
             <p>Su navegador no soporta vídeos HTML5.</p>
           </video>
-          <img src="src/images/ocean_preview.png" alt="image" class="preview-image"/>
+          <img src="src/images/ocean_preview.png" alt="Ocean freight" class="preview-image"/>
 
           <div class="top">
-            <div><img src="src/images/ocean_icon.svg"/></div>
+            <div><img src="src/images/ocean_icon.svg" alt="" aria-hidden="true"/></div>
             <p>01</p>
           </div>
 
@@ -140,7 +140,7 @@ $seoPage = 'home';
 
             <button onclick="window.location.href='<?php echo urlWithLang('services.php'); ?>'">
               <p><?php echo t('home.services.button_more', $translations); ?></p>
-              <img alt="arrow" src="src/images/arrow_blue.svg"/>
+              <img alt="" aria-hidden="true" src="src/images/arrow_blue.svg"/>
             </button>
           </div>
         </div>
@@ -157,10 +157,10 @@ $seoPage = 'home';
           > 
             <p>Su navegador no soporta vídeos HTML5.</p>
           </video>
-          <img src="src/images/air_preview.png" alt="image" class="preview-image"/>
+          <img src="src/images/air_preview.png" alt="Air freight" class="preview-image"/>
 
           <div class="top">
-            <div><img src="src/images/air_icon.svg"/></div>
+            <div><img src="src/images/air_icon.svg" alt="" aria-hidden="true"/></div>
             <p>02</p>
           </div>
 
@@ -169,7 +169,7 @@ $seoPage = 'home';
 
             <button onclick="window.location.href='<?php echo urlWithLang('services.php'); ?>'">
               <p><?php echo t('home.services.button_more', $translations); ?></p>
-              <img alt="arrow" src="src/images/arrow_blue.svg"/>
+              <img alt="" aria-hidden="true" src="src/images/arrow_blue.svg"/>
             </button>
           </div>
         </div>
@@ -186,9 +186,9 @@ $seoPage = 'home';
           > 
             <p>Su navegador no soporta vídeos HTML5.</p>
           </video>
-          <img src="src/images/trucking_preview.png" alt="image" class="preview-image"/>
+          <img src="src/images/trucking_preview.png" alt="Trucking" class="preview-image"/>
           <div class="top">
-            <div><img src="src/images/trucking_icon.svg"/></div>
+            <div><img src="src/images/trucking_icon.svg" alt="" aria-hidden="true"/></div>
             <p>03</p>
           </div>
 
@@ -197,7 +197,7 @@ $seoPage = 'home';
 
             <button onclick="window.location.href='<?php echo urlWithLang('services.php'); ?>'">
               <p><?php echo t('home.services.button_more', $translations); ?></p>
-              <img alt="arrow" src="src/images/arrow_blue.svg"/>
+              <img alt="" aria-hidden="true" src="src/images/arrow_blue.svg"/>
             </button>
           </div>
         </div>
@@ -216,9 +216,9 @@ $seoPage = 'home';
           > 
             <p>Su navegador no soporta vídeos HTML5.</p>
           </video>
-          <img src="src/images/warehousing_preview.png" alt="image" class="preview-image"/>
+          <img src="src/images/warehousing_preview.png" alt="Warehousing" class="preview-image"/>
           <div class="top">
-            <div><img src="src/images/warehousing_icon.svg"/></div>
+            <div><img src="src/images/warehousing_icon.svg" alt="" aria-hidden="true"/></div>
             <p>04</p>
           </div>
 
@@ -227,7 +227,7 @@ $seoPage = 'home';
 
             <button onclick="window.location.href='<?php echo urlWithLang('services.php'); ?>'">
               <p><?php echo t('home.services.button_more', $translations); ?></p>
-              <img alt="arrow" src="src/images/arrow_blue.svg"/>
+              <img alt="" aria-hidden="true" src="src/images/arrow_blue.svg"/>
             </button>
           </div>
         </div>
@@ -244,9 +244,9 @@ $seoPage = 'home';
           > 
             <p>Su navegador no soporta vídeos HTML5.</p>
           </video>
-          <img src="src/images/elogistic_preview.png" alt="image" class="preview-image"/>
+          <img src="src/images/elogistic_preview.png" alt="E-logistics" class="preview-image"/>
           <div class="top">
-            <div><img src="src/images/e_logistic_icon.svg"/></div>
+            <div><img src="src/images/e_logistic_icon.svg" alt="" aria-hidden="true"/></div>
             <p>05</p>
           </div>
 
@@ -255,7 +255,7 @@ $seoPage = 'home';
 
             <button onclick="window.location.href='<?php echo urlWithLang('services.php'); ?>'">
               <p><?php echo t('home.services.button_more', $translations); ?></p>
-              <img alt="arrow" src="src/images/arrow_blue.svg"/>
+              <img alt="" aria-hidden="true" src="src/images/arrow_blue.svg"/>
             </button>
           </div>
         </div>
@@ -272,9 +272,9 @@ $seoPage = 'home';
           > 
             <p>Su navegador no soporta vídeos HTML5.</p>
           </video>
-          <img src="src/images/insurance_preview.png" alt="image" class="preview-image"/>
+          <img src="src/images/insurance_preview.png" alt="Cargo insurance" class="preview-image"/>
           <div class="top">
-            <div><img src="src/images/insurance_icon.svg"/></div>
+            <div><img src="src/images/insurance_icon.svg" alt="" aria-hidden="true"/></div>
             <p>06</p>
           </div>
 
@@ -283,7 +283,7 @@ $seoPage = 'home';
 
             <button onclick="window.location.href='<?php echo urlWithLang('services.php'); ?>'">
               <p><?php echo t('home.services.button_more', $translations); ?></p>
-              <img alt="arrow" src="src/images/arrow_blue.svg"/>
+              <img alt="" aria-hidden="true" src="src/images/arrow_blue.svg"/>
             </button>
           </div>
         </div>
@@ -299,9 +299,9 @@ $seoPage = 'home';
       </div>
 
       <article>
-        <img alt="map-background" src="src/images/location-background.svg" class="background"/>
+        <img alt="" aria-hidden="true" src="src/images/location-background.svg" class="background"/>
         <div class="map">
-          <img alt="map" src="src/images/map.svg"/>
+          <img alt="Latin America map" src="src/images/map.svg"/>
           <div class="circle-container ar">
             <div class="circle large"></div>
             <div class="circle medium"></div>
@@ -414,7 +414,7 @@ $seoPage = 'home';
 
           <div class="location-preview">
             <div class="image-container">
-              <img id="location-image"/>
+              <img id="location-image" alt=""/>
             </div>
             <h4 id="location-title"></h4>
             <p id="location-text"></p>
@@ -431,7 +431,7 @@ $seoPage = 'home';
           <img src="src/images/we_are_msl.svg" alt="MSL Group"/>
 
           <a href="https://mslcorporate.com/" class="about_container" target="_blank">
-            <p><?php echo t('home.msl_group.title', $translations); ?> <img src="src/images/arrow_blue.svg" alt="arrow"/></p>
+            <p><?php echo t('home.msl_group.title', $translations); ?> <img src="src/images/arrow_blue.svg" alt="" aria-hidden="true"/></p>
           </a>
         </div>
 
@@ -660,6 +660,7 @@ $seoPage = 'home';
 
           const data = countryData[country];
           locationImage.src = data.image;
+          locationImage.alt = data.title;
           locationTitle.textContent = data.title;
           locationText.innerHTML = data.text;
           locationMoreBtn.onclick = () => window.location.href = `offices#${data.slug}`;
