@@ -713,6 +713,7 @@ $seoPage = 'home';
 
         const data = countryData[countryName];
         locationImage.src = data.image;
+        locationImage.alt = data.title;
         locationTitle.textContent = data.title;
         locationText.innerHTML = data.text;
         locationMoreBtn.onclick = () => window.location.href = `offices#${data.slug}`;
@@ -735,6 +736,7 @@ $seoPage = 'home';
         
         const data = countryData['Argentina'];
         locationImage.src = data.image;
+        locationImage.alt = data.title;
         locationTitle.textContent = data.title;
         locationText.innerHTML = data.text;
         locationMoreBtn.onclick = () => window.location.href = `offices#${data.slug}`;
