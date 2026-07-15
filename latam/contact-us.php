@@ -2,6 +2,7 @@
 require_once __DIR__ . '/src/utils/i18n.php';
 $currentLang = getCurrentLanguage();
 $translations = loadTranslations();
+$seoPage = 'contact-us';
 
 $hubspotContactFormIds = [
   'en' => '08abadf8-861f-497f-b13c-5de05ef42443',
@@ -16,7 +17,7 @@ $hubspotContactFormId = $hubspotContactFormIds[$currentLang] ?? $hubspotContactF
   <?php include 'src/components/php/gtm-head.php'; ?>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MSL LATAM / Contact us</title>
+  <?php include 'src/components/php/seo-head.php'; ?>
 
   <link rel="stylesheet" href="src/styles/styles.css?v=hubspot-embed">
   <link rel="stylesheet" href="https://use.typekit.net/lex8tiv.css">

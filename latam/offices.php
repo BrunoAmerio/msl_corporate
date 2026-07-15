@@ -2,6 +2,7 @@
 require_once __DIR__ . '/src/utils/i18n.php';
 $currentLang = getCurrentLanguage();
 $translations = loadTranslations();
+$seoPage = 'offices';
 
 $tarifariosDirectoryName = 'tarifarios';
 $tarifariosDirectoryPath = dirname(__DIR__) . DIRECTORY_SEPARATOR . $tarifariosDirectoryName;
@@ -39,7 +40,7 @@ $peruTarifarioLinks = array_map(function ($file) use ($tarifariosDirectoryName) 
   <?php include 'src/components/php/gtm-head.php'; ?>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MSL LATAM / Network</title>
+  <?php include 'src/components/php/seo-head.php'; ?>
   <link rel="stylesheet" href="src/styles/styles.css?v=final">
   <link rel="stylesheet" href="https://use.typekit.net/lex8tiv.css">
   <link rel="icon" type="image/x-icon" href="src/images/favicon.png">

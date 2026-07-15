@@ -2,6 +2,7 @@
 require_once __DIR__ . '/src/utils/i18n.php';
 $currentLang = getCurrentLanguage();
 $translations = loadTranslations();
+$seoPage = 'home';
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $currentLang; ?>">
@@ -9,7 +10,7 @@ $translations = loadTranslations();
   <?php include 'src/components/php/gtm-head.php'; ?>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MSL LATAM / Home</title>
+  <?php include 'src/components/php/seo-head.php'; ?>
 
   <link rel="stylesheet" href="src/styles/styles.css">
   <link rel="stylesheet" href="https://use.typekit.net/lex8tiv.css">
