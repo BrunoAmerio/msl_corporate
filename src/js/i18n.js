@@ -146,6 +146,16 @@ function applyTranslations() {
     }
   });
   
+  const seoTitle = t('seo.title');
+  const seoDescription = t('seo.description');
+  if (seoTitle && seoTitle !== 'seo.title') {
+    document.title = seoTitle;
+  }
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc && seoDescription && seoDescription !== 'seo.description') {
+    metaDesc.setAttribute('content', seoDescription);
+  }
+
   // Actualizar atributo lang del HTML
   document.documentElement.setAttribute('lang', currentLanguage);
 }
