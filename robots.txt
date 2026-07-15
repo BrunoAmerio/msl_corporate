@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /latam/admin/
+Disallow: /latam/send-contact-form.php
+Disallow: /latam/send-work-form.php
+
+Sitemap: https://mslcorporate.com/sitemap.xml
