@@ -102,7 +102,7 @@ $seoPage = 'home';
       <div class="services-top">
         <div>
           <p><?php echo t('home.services.title_prefix', $translations); ?></p>
-          <h1><?php echo t('home.services.title', $translations); ?></h1>
+          <h2><?php echo t('home.services.title', $translations); ?></h2>
         </div>
 
         <div>
@@ -294,7 +294,7 @@ $seoPage = 'home';
       <div class="top">
         <div>
           <p><?php echo t('home.offices.title_prefix', $translations); ?></p>
-          <h1><?php echo t('home.offices.title', $translations); ?></h1>
+          <h2><?php echo t('home.offices.title', $translations); ?></h2>
         </div>
       </div>
 
@@ -493,7 +493,7 @@ $seoPage = 'home';
     <section id="contact-us">
       <article>
         <div class="left">
-          <h1><?php echo t('home.cta.title', $translations); ?></h1>
+          <h2><?php echo t('home.cta.title', $translations); ?></h2>
 
           <button onclick="window.location.href='<?php echo urlWithLang('contact-us.php'); ?>'"><?php echo t('home.cta.button', $translations); ?></button>
         </div>

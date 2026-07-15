@@ -61,7 +61,7 @@ $seoPage = 'about-us';
           </div>
         </div>
 
-        <h1 class="reval"><?php echo t('about.who_we_are.description', $translations); ?></h1>
+        <h2 class="reval"><?php echo t('about.who_we_are.description', $translations); ?></h2>
       </div>
     </article>
 
@@ -76,9 +76,9 @@ $seoPage = 'about-us';
 
       <div class="content">
         <div class="left">
-          <h4>
+          <h2>
             <?php echo t('about.our_history.title', $translations); ?>
-          </h4>
+          </h2>
 
           <p>
             <?php echo t('about.our_history.description', $translations); ?>
@@ -107,9 +107,9 @@ $seoPage = 'about-us';
 
       <div class="content">
         <div class="left">
-          <h4>
+          <h2>
             <?php echo t('about.regional_reach.title', $translations); ?>
-          </h4>
+          </h2>
         </div>
 
         <div class="right">

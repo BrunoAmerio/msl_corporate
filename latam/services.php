@@ -39,7 +39,7 @@ $seoPage = 'services';
 
   <section id="services-container-info">
     <div class="top">
-      <h1><?php echo t('services_page.info.title', $translations); ?></h1>
+      <h2><?php echo t('services_page.info.title', $translations); ?></h2>
     </div>
     <div class="middle">
       <img src="src/images/nlo_logo.svg">
@@ -62,7 +62,7 @@ $seoPage = 'services';
         <img src="src/images/ocean_icon.svg"/>
       </div>
 
-      <h1><?php echo t('services_page.ocean.title', $translations); ?></h1>
+      <h2><?php echo t('services_page.ocean.title', $translations); ?></h2>
       <p class="paragraph">
         <?php echo t('services_page.ocean.description', $translations); ?>
       </p>
@@ -92,7 +92,7 @@ $seoPage = 'services';
          <img src="src/images/air_icon.svg"/>
        </div>
  
-       <h1><?php echo t('services_page.air.title', $translations); ?></h1>
+       <h2><?php echo t('services_page.air.title', $translations); ?></h2>
        <p class="paragraph"><?php echo t('services_page.air.description', $translations); ?></p>
  
        <div class="options">
@@ -134,7 +134,7 @@ $seoPage = 'services';
          <img src="src/images/trucking_icon.svg"/>
        </div>
  
-       <h1><?php echo t('services_page.truck.title', $translations); ?></h1>
+       <h2><?php echo t('services_page.truck.title', $translations); ?></h2>
        <p class="paragraph"><?php echo t('services_page.truck.description', $translations); ?></p>
  
        <div class="options">
@@ -156,7 +156,7 @@ $seoPage = 'services';
          <img src="src/images/warehousing_icon.svg"/>
        </div>
  
-       <h1><?php echo t('services_page.warehousing.title', $translations); ?></h1>
+       <h2><?php echo t('services_page.warehousing.title', $translations); ?></h2>
        <p class="paragraph"><?php echo t('services_page.warehousing.description', $translations); ?></p>
  
        <div class="options">
@@ -178,7 +178,7 @@ $seoPage = 'services';
          <img src="src/images/e_logistic_icon.svg"/>
        </div>
  
-       <h1><?php echo t('services_page.elogistics.title', $translations); ?></h1>
+       <h2><?php echo t('services_page.elogistics.title', $translations); ?></h2>
        <p class="paragraph"><?php echo t('services_page.elogistics.description', $translations); ?></p>
  
        <div class="options">
@@ -226,7 +226,7 @@ $seoPage = 'services';
          <img src="src/images/insurance_icon.svg"/>
        </div>
  
-       <h1><?php echo t('services_page.insurance.title', $translations); ?></h1>
+       <h2><?php echo t('services_page.insurance.title', $translations); ?></h2>
        <p class="paragraph"><?php echo t('services_page.insurance.description', $translations); ?></p>
  
        <div class="options">

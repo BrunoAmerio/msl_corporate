@@ -204,7 +204,7 @@ $peruTarifarioLinks = array_map(function ($file) use ($tarifariosDirectoryName) 
       <div class="country-info">
         <div class="country-header">
           <div class="country-left">
-            <h1 id="country-name"><?php echo t('offices_page.countries.ar.name', $translations); ?></h1>
+            <h2 id="country-name"><?php echo t('offices_page.countries.ar.name', $translations); ?></h2>
             <p class="description" id="country-description"></p>
             <div class="services-section">
               <h3><?php echo t('offices_page.services_label', $translations); ?></h3>
