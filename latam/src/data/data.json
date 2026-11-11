@@ -64,7 +64,12 @@
         },
         {
           "name": "Rio de Janeiro",
-          "address": "Avenida Rio Branco, 45 – Salas 1102 e 1103 Centro – Rio de Janeiro/ RJ CEP: 20090-003",
+          "address": "Av: Almirante Barroso, nº 81 – 33º andar – Sala 33 A - 104 Centro – Rio de Janeiro",
+          "addresses": {
+            "es": "Av: Almirante Barroso, nº 81 – 33º andar – Sala 33 A - 104 Centro – Rio de Janeiro",
+            "en": "Av. Almirante Barroso, nº 81 – 33º walk – Room 33 A – 104 Center – Rio de Janeiro",
+            "pt": "Av. Almirante Barroso, nº 81 – 33º andar – Sala 33 A - 104 Centro – Rio de Janeiro"
+          },
           "warehouse": "-",
           "phone": "+55 21 2203-1860",
           "email": "msl-rio@mslcorporate.com.br",

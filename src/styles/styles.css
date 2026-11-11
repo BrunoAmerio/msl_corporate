@@ -687,6 +687,7 @@ main {
   border: none;
   border-radius: 999px;
   background: #001E4B;
+  text-decoration: none;
   cursor: pointer;
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: #E9F0FF;
@@ -1873,8 +1874,9 @@ main {
 }
 
 .group-hero__logos .logos-track img {
-  max-height: 80px;
-  width: auto;
+  /* Caja uniforme para todos los logos del carrusel */
+  height: 64px;
+  width: 150px;
   object-fit: contain;
   filter: grayscale(100%);
   opacity: 0.7;
@@ -2430,20 +2432,17 @@ main {
     height: 75vh;
   }
 
+  /* Misma foto principal que en desktop (auditoría): la versión móvil ya no se muestra */
   .header-image {
-    display: none;
-  }
-
-  .header-image-mobile {
     display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
-    z-index: 1;
+  }
+
+  .header-image-mobile {
+    display: none;
   }
 
   .main-title {
@@ -2679,7 +2678,8 @@ main {
   }
 
   .group-hero__logos .logos-track img {
-    max-height: 75px;
+    height: 56px;
+    width: 120px;
   }
 
 }
@@ -2688,5 +2688,109 @@ main {
   .network-card {
     bottom: -209%;
     right: -14%;
+  }
+}
+
+/* Nosotros: bloque "Una identidad global: MSL Group" */
+.about-hero__group-title {
+  margin-top: 12px;
+  font-size: 22px;
+  font-weight: 500;
+  color: #001E4B;
+}
+
+/* Tarjeta de oficinas: botón para cerrar */
+.network-card__close {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: #F5F8FF;
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.network-card__close:hover,
+.network-card__close:focus-visible {
+  background: rgba(233, 240, 255, 0.16);
+}
+
+/* Banner de consentimiento de cookies */
+.cookie-banner {
+  position: fixed;
+  left: 50%;
+  bottom: 20px;
+  transform: translateX(-50%);
+  z-index: 1000;
+  width: min(960px, calc(100% - 32px));
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 18px 24px;
+  border-radius: 18px;
+  background: #001E4B;
+  color: #E9F0FF;
+  box-shadow: 0 16px 40px rgba(0, 12, 48, 0.35);
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+.cookie-banner[hidden] {
+  display: none;
+}
+
+.cookie-banner__text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.cookie-banner__link {
+  color: #E9F0FF;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+.cookie-banner__actions {
+  display: flex;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.cookie-banner__btn {
+  padding: 10px 22px;
+  border-radius: 999px;
+  border: 1px solid #E9F0FF;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.cookie-banner__btn--decline {
+  background: transparent;
+  color: #E9F0FF;
+}
+
+.cookie-banner__btn--accept {
+  background: #E9F0FF;
+  color: #001E4B;
+}
+
+@media (max-width: 640px) {
+  .cookie-banner {
+    flex-direction: column;
+    align-items: stretch;
+    bottom: 12px;
+    padding: 16px;
+  }
+
+  .cookie-banner__actions {
+    justify-content: flex-end;
   }
 }

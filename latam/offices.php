@@ -367,6 +367,7 @@ $peruTarifarioLinks = array_map(function ($file) use ($tarifariosDirectoryName) 
         
         const countryName = translations.offices_page?.countries?.[countryId]?.name || countriesData.countries[countryId].name;
         const labels = translations.offices_page?.location_labels || {};
+        const officeAddress = (office.addresses && office.addresses[currentLang]) || office.address;
         
         locationCard.innerHTML = `
           <div class="location-header">
@@ -387,7 +388,7 @@ $peruTarifarioLinks = array_map(function ($file) use ($tarifariosDirectoryName) 
             <div class="info-row">
               <div class="info-item">
                 <p>${labels.address || 'DIRECCIÓN'}</p>
-                <p><strong>${office.address}</strong></p>
+                <p><strong>${officeAddress}</strong></p>
               </div>
               <div class="info-item">
                 <p>${labels.warehouse || 'WAREHOUSE'}</p>

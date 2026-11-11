@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         countries: getCountries('network.latam.countries'),
         isUSA: false,
         cta: window.i18n.t('network.latam.cta'),
-        url: 'https://www.msllatam.com',
+        url: '/latam',
       },
       usa: {
         eyebrow: window.i18n.t('network.usa.eyebrow'),
@@ -294,6 +294,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       event.stopPropagation();
 
       if (activeMarker === marker) {
+        // Segundo clic sobre el mismo marcador: pliega la tarjeta
+        deactivateActiveMarker();
         return;
       }
 
@@ -303,6 +305,14 @@ document.addEventListener('DOMContentLoaded', async () => {
       showNetworkCard(marker.dataset.marker);
     });
   });
+
+  const networkCardClose = document.querySelector('.network-card__close');
+  if (networkCardClose) {
+    networkCardClose.addEventListener('click', (event) => {
+      event.stopPropagation();
+      deactivateActiveMarker();
+    });
+  }
 
   document.addEventListener('click', (event) => {
     if (!event.target.closest('.network-marker')) {
@@ -446,7 +456,8 @@ document.addEventListener('DOMContentLoaded', async () => {
       event.stopPropagation();
 
       if (activeJourneyItem === item) {
-        activateJourneyItem(item);
+        // Segundo clic sobre la tarjeta abierta: se pliega
+        deactivateJourneyItem();
         return;
       }
 

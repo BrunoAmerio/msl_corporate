@@ -4,12 +4,24 @@ $currentLang = getCurrentLanguage();
 $translations = loadTranslations();
 $seoPage = 'contact-us';
 
-$hubspotContactFormIds = [
-  'en' => '08abadf8-861f-497f-b13c-5de05ef42443',
-  'es' => 'ccc19224-5904-4821-99d2-d603e22f8193',
-  'pt' => '3f8253cc-c5c2-45f3-a171-d55bd9bedc85',
+$hubspotContactForms = [
+  'en' => [
+    'formId' => '2cf7a675-f77b-4d60-963c-80eccf4f48f0',
+    'embedClass' => 'hs-form-html',
+    'script' => 'https://js.hsforms.net/forms/embed/developer/45020904.js',
+  ],
+  'es' => [
+    'formId' => 'ccc19224-5904-4821-99d2-d603e22f8193',
+    'embedClass' => 'hs-form-frame',
+    'script' => 'https://js.hsforms.net/forms/embed/45020904.js',
+  ],
+  'pt' => [
+    'formId' => '3f8253cc-c5c2-45f3-a171-d55bd9bedc85',
+    'embedClass' => 'hs-form-frame',
+    'script' => 'https://js.hsforms.net/forms/embed/45020904.js',
+  ],
 ];
-$hubspotContactFormId = $hubspotContactFormIds[$currentLang] ?? $hubspotContactFormIds['es'];
+$hubspotContactForm = $hubspotContactForms[$currentLang] ?? $hubspotContactForms['es'];
 ?>
 <!DOCTYPE html>
 <html lang="<?php echo $currentLang; ?>">
@@ -70,9 +82,9 @@ $hubspotContactFormId = $hubspotContactFormIds[$currentLang] ?? $hubspotContactF
   
         <div class="contact-hubspot-form" id="hubspot-contact-form">
           <div
-            class="hs-form-frame"
+            class="<?php echo htmlspecialchars($hubspotContactForm['embedClass'], ENT_QUOTES, 'UTF-8'); ?>"
             data-region="na1"
-            data-form-id="<?php echo htmlspecialchars($hubspotContactFormId, ENT_QUOTES, 'UTF-8'); ?>"
+            data-form-id="<?php echo htmlspecialchars($hubspotContactForm['formId'], ENT_QUOTES, 'UTF-8'); ?>"
             data-portal-id="45020904"
           ></div>
         </div>
@@ -124,7 +136,7 @@ $hubspotContactFormId = $hubspotContactFormIds[$currentLang] ?? $hubspotContactF
 
       <?php include 'src/components/php/footer.php'; ?>
 
-  <script charset="utf-8" src="https://js.hsforms.net/forms/embed/45020904.js" defer></script>
+  <script charset="utf-8" src="<?php echo htmlspecialchars($hubspotContactForm['script'], ENT_QUOTES, 'UTF-8'); ?>" defer></script>
   <script src="src/scripts/mobile-menu.js"></script>
   <script>
     document.addEventListener('DOMContentLoaded', () => {

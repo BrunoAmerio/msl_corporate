@@ -3420,6 +3420,7 @@ footer .bottom .second-bottom p{
   flex: 1;
 }
 #contact-page .content .right .contact-hubspot-form .hs-form-frame,
+#contact-page .content .right .contact-hubspot-form .hs-form-html,
 #contact-page .content .right .contact-hubspot-form iframe {
   width: 100% !important;
   min-height: 360px;
